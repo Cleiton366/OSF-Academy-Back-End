@@ -4,22 +4,12 @@ const wishlistController = require("../controllers/WishlistController");
 const router = express.Router();
 
 //​Get Wishlist
-router.get("/wishlist", async (req, res) => {
-    const result = await wishlistController.getWishlist(req, res);
-    res.send(result);
-});
+router.get("/wishlist", wishlistController.getWishlist);
 //​​Add Item to Wishlist
-router.post("/wishlist/addItem", async (req, res) => {
-    const result = await wishlistController.addItemWishlist(req, res);
-    res.send(result);
-});
+router.post("/wishlist/addItem", wishlistController.addItemWishlist);
 //Remove Item From Wishlist
-router.delete("/wishlist/removeItem", async (req, res) => {
-    await wishlistController.removeItemWishlist(req, res);
-});
+router.delete("/wishlist/removeItem", wishlistController.removeItemWishlist);
 //​Change Quantity of Item 
-router.post("/wishlist/changeItemQuantity", async (req, res) => {
-    await wishlistController.changeItemWishlist(req, res);
-});
+router.post("/wishlist/changeItemQuantity", wishlistController.changeQuantityItem);
 
 module.exports = router;
