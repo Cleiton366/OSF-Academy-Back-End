@@ -1,5 +1,6 @@
 const express = require("express");
 require("dotenv").config();
+const path = require("path");
 
 const authRouter = require("./routes/Auth");
 const cartRouter = require("./routes/Cart");
@@ -7,11 +8,12 @@ const ordersRouter = require("./routes/Order");
 const productsRouter = require("./routes/Products");
 const wishlistRouter = require("./routes/Wishlist");
 const categoriesRouter = require("./routes/Categories");
+const viewsRouter = require("./routes/Views");
 
 const app = express();
 app.use(express.json());
-app.set("view engine", "ejs");
-app.use(express.static("./public/views"));
+app.use(express.static("./public"));
+app.engine('html', require('ejs').renderFile);
 
 app.use(authRouter);
 app.use(cartRouter);
@@ -19,14 +21,6 @@ app.use(categoriesRouter);
 app.use(ordersRouter);
 app.use(productsRouter);
 app.use(wishlistRouter);
+app.use(viewsRouter);
 
-const port = process.env.PORT;
-app.listen(port, () => {
-    console.log('Server is running on port 4000');
-});
-
-app.get("/", (req, res) => {
-    res.render("../public/views/index.ejs");
-});
-
-
+module.exports = app;

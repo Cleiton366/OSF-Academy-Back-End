@@ -7,6 +7,6 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "dev": "nodemon ./src/app.js"
+    "dev": "nodemon -e js,ejs,css ./src/server.js"
   }
 }

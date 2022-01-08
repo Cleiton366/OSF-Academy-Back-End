@@ -8,7 +8,7 @@ async function getCategoryById(req, res) {
 
 async function getCategoryByParentId(req, res) {
   const { id } = req.body;
-  const result = await categories.getCategoryById(id);
+  const result = await categories.getCategoryByParentId(id);
   return res.json(result);
 }
 

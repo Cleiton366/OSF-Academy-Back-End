@@ -1,0 +1,68 @@
+@import url(global.css);
+
+main {
+    margin-left: 10vw;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#categories{
+    width: 350px;
+}
+
+.products-category {
+    display:table;
+    vertical-align: left;
+    color: black;
+}
+
+.products-category:hover {
+    color: #7bdaf1;
+}
+
+.products-category {
+    font-size: 12pt;
+    text-align: center;
+}
+
+#container-collumn {
+    display:table-column-group;
+}
+
+#carousel-products {
+    margin-left: 3vw;
+    width: 900px;
+}
+
+#featured-products-container {
+    margin-top: 20px;
+    width: 790px;
+    height: 450px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#featured-products-container>h1 {
+    text-align: center;
+    font-size: 28pt;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.card {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.03)
+}
+.card>img {
+    width: auto;
+    height: 200px;
+}
