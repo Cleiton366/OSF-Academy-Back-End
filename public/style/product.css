@@ -1,0 +1,45 @@
+@import url(global.css);
+
+.product-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6vh;
+    margin-left: 10vw;
+}
+
+.product-img{
+    height: 600px;
+    width: 600px;
+}
+
+/* info */
+.info {
+    margin-top: 7vh;
+    margin-left: 5vw;
+}
+
+.quantity-container {
+    display: flex;
+}
+
+.quantity {
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+.fa-minus, .fa-plus {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.product-description {
+    margin-top: 20px;
+    width: 350px;
+    height: auto;
+}
+
+.options>.btn {
+    margin: 5px;
+    width: 90px;
+    height: 55px;
+    font-size: 11pt;
+}

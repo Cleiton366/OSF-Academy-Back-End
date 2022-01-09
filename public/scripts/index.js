@@ -8,19 +8,24 @@ $(document).ready(async function () {
   for (var i = 0; i < categories.length; i++) {
     render = "";
     if (categories[i].parent_category_id == "mens-accessories") {
-      render = `<a id="${categories[i].id}" class="products-category">${categories[i].name}</a>`;
+      render = `<a id="${categories[i].id}" class="products-category"`+
+      `href="/products_on_category/${categories[i].id}">${categories[i].name}</a>`;
       $("#mens-accessories").append(render);
     } else if (categories[i].parent_category_id == "mens-clothing") {
-      render = `<a id="${categories[i].id}" class="products-category">${categories[i].name}</a>`;
+      render = `<a id="${categories[i].id}" class="products-category"`+
+      `href="/products_on_category/${categories[i].id}">${categories[i].name}</a>`;
       $("#mens-clothing").append(render);
     } else if (categories[i].parent_category_id == "womens-accessories") {
-      render = `<a id="${categories[i].id}" class="products-category">${categories[i].name}</a>`;
+      render = `<a id="${categories[i].id}" class="products-category"`+
+      `href="/products_on_category/${categories[i].id}">${categories[i].name}</a>`;
       $("#womens-accessories").append(render);
     } else if (categories[i].parent_category_id == "womens-clothing") {
-      render = `<a id="${categories[i].id}" class="products-category">${categories[i].name}</a>`;
+      render = `<a id="${categories[i].id}" class="products-category"`+
+      `href="/products_on_category/${categories[i].id}">${categories[i].name}</a>`;
       $("#womens-clothing").append(render);
     } else if (categories[i].parent_category_id == "womens-jewelry") {
-      render = `<a id="${categories[i].id}" class="products-category">${categories[i].name}</a>`;
+      render = `<a id="${categories[i].id}" class="products-category"`+
+      `href="/products_on_category/${categories[i].id}">${categories[i].name}</a>`;
       $("#womens-jewelry").append(render);
     }
   }

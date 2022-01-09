@@ -57,5 +57,3 @@ async function signup() {
   return result;
 }
 
-
-

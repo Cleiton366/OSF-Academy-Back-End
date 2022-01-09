@@ -1,6 +1,5 @@
 const express = require("express");
 require("dotenv").config();
-const path = require("path");
 
 const authRouter = require("./routes/Auth");
 const cartRouter = require("./routes/Cart");
@@ -12,8 +11,9 @@ const viewsRouter = require("./routes/Views");
 
 const app = express();
 app.use(express.json());
-app.use(express.static("./public"));
-app.engine('html', require('ejs').renderFile);
+app.use(express.static("public"));
+//app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
 
 app.use(authRouter);
 app.use(cartRouter);
