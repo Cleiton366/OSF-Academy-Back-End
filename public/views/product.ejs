@@ -99,13 +99,26 @@
         <div class="quantity-container">
           <p>Quantity</p>
           <i class="fas fa-minus"></i>
-          <p class="quantity" id="">1</p>
+          <p class="quantity">1</p>
           <i class="fas fa-plus"></i>
+        </div>
+        <div class="variants-container">
+          <p>Color:</p>
+          <select name="Color" id="">
+            <%for(var i = 0; i < product[0].variation_attributes[0].values.length; i++){%>
+              <option value="<%=product[0].variation_attributes[0].values[i].value%>"><%=product[0].variation_attributes[0].values[i].name%></option>
+            <%}%>
+          </select>
+          <p>Size:</p>
+          <select name="Size" id="">
+            <%for(var i = 0; i < product[0].variants.length; i++){%>
+              <option value="<%=product[0].variants[i].variation_values.size%>"><%=product[0].variants[i].variation_values.size%></option>
+            <%}%>
+          </select>
         </div>
         <div id="wishlistBtn" class="btn">Add to Wishlist</div>
         <div id="cartBtn" class="btn">Add to Cart</div>
         <div id="buyBtn" class="btn">Buy Now</div>
-        <div class="variants"></div>
         <div class="product-description">
           <small> <%=product[0].short_description%> </small>
         </div>
@@ -122,7 +135,7 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    <script src="../scripts/products_on_category.js"></script>
+    <script src="../scripts/product.js"></script>
     <script src="../scripts/auth.js"></script>
   </body>
 </html>

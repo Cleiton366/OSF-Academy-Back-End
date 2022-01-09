@@ -136,3 +136,9 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+.breadcrumb {
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
