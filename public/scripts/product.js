@@ -16,6 +16,12 @@ $(document).ready(async function () {
     $("#signoutLi").hide();
     $("#wishlistLi").hide();
   }
+
+  var category = $("#parent_category").attr("href").match(/products_on_category(.+)/)[1];
+  var category_info = await fetch(`/category${category}`).then((response) => {
+    return response.json();
+  });
+  $("#parent_category").html(category_info.name);
 });
 
 $("#wishlistBtn").click(function () {

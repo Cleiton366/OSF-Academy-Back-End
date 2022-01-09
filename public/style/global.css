@@ -45,3 +45,14 @@ body {
   background: rgb(104, 104, 238);
   color: white;
 }
+
+.breadcrumb {
+  margin-top: 2vh;
+  margin-left: 3vw;
+}
+
+.breadcrumb>li>a {
+  color: black;
+  text-decoration: none;
+}
+

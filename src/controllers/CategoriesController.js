@@ -1,7 +1,7 @@
 const categories = require("../models/Categories");
 
 async function getCategoryById(req, res) {
-  const { id } = req.body;
+  const { id } = req.params;
   const result = await categories.getCategoryById(id);
   return res.json(result);
 }
