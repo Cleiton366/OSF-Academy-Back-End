@@ -86,14 +86,21 @@
       </div>
     </nav>
 
-    <!-- breadcrumb -->    
+    <!-- breadcrumb -->
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item"><a id="parent_category" href="/products_on_category/<%=product[0].primary_category_id%>"></a></li>
-        <li class="breadcrumb-item active" aria-current="page"><%=product[0].name%></li>
+        <li class="breadcrumb-item">
+          <a
+            id="parent_category"
+            href="/products_on_category/<%=product[0].primary_category_id%>"
+          ></a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          <%=product[0].name%>
+        </li>
       </ol>
-    </nav> 
+    </nav>
 
     <!--- product info -->
 
@@ -111,25 +118,65 @@
           <p class="quantity">1</p>
           <i class="fas fa-plus"></i>
         </div>
+        <h5>Product Variants</h5>
         <div class="variants-container">
-          <p>Color:</p>
-          <select name="Color" id="">
-            <%for(var i = 0; i < product[0].variation_attributes[0].values.length; i++){%>
-              <option value="<%=product[0].variation_attributes[0].values[i].value%>"><%=product[0].variation_attributes[0].values[i].name%></option>
-            <%}%>
-          </select>
-          <p>Size:</p>
-          <select name="Size" id="">
-            <%for(var i = 0; i < product[0].variants.length; i++){%>
-              <option value="<%=product[0].variants[i].variation_values.size%>"><%=product[0].variants[i].variation_values.size%></option>
-            <%}%>
-          </select>
+          <div id="colors">
+            <p>Color:</p>
+            <select name="Color" id="color">
+              <%for(var i = 0; i < product[0].variation_attributes.length;
+              i++){%> <%for(var j = 0; j <
+              product[0].variation_attributes[i].values.length; j++){%>
+              <%if(product[0].variation_attributes[i].id == "color"){%>
+              <option
+                value="<%=product[0].variation_attributes[i].values[j].value%>"
+              >
+                <%=product[0].variation_attributes[i].values[j].name%>
+              </option>
+              <%}%> <%}%> <%}%>
+            </select>
+          </div>
+          <div id="sizes">
+            <p>Size:</p>
+            <select name="Size" id="size">
+              <%for(var i = 0; i < product[0].variation_attributes.length;
+              i++){%> <%for(var j = 0; j <
+              product[0].variation_attributes[i].values.length; j++){%>
+              <%if(product[0].variation_attributes[i].name == "Size" ||
+              product[0].variation_attributes[i].name == "size"){%>
+              <option
+                value="<%=product[0].variation_attributes[i].values[j].value%>"
+              >
+                <%=product[0].variation_attributes[i].values[j].name%>
+              </option>
+              <%}%> <%}%> <%}%>
+            </select>
+          </div>
+          <div id="widths">
+            <p>Width:</p>
+            <select name="Width" id="width">
+              <%for(var i = 0; i < product[0].variation_attributes.length;
+              i++){%> <%for(var j = 0; j <
+              product[0].variation_attributes[i].values.length; j++){%>
+              <%if(product[0].variation_attributes[i].id == "width"){%>
+              <option
+                value="<%=product[0].variation_attributes[i].values[j].value%>"
+              >
+                <%=product[0].variation_attributes[i].values[j].name%>
+              </option>
+              <%}%> <%}%> <%}%>
+            </select>
+          </div>
         </div>
         <div id="wishlistBtn" class="btn">Add to Wishlist</div>
         <div id="cartBtn" class="btn">Add to Cart</div>
         <div id="buyBtn" class="btn">Buy Now</div>
         <div class="product-description">
+          <h5>Description</h5>
           <small> <%=product[0].short_description%> </small>
+          <%if(product[0].c_tabDetails){%>
+          <h5>Details</h5>
+          <small> <%=product[0].c_tabDetails%> </small>
+          <%}%>
         </div>
       </div>
     </div>
@@ -146,5 +193,137 @@
     ></script>
     <script src="../scripts/product.js"></script>
     <script src="../scripts/auth.js"></script>
+    <script>
+      $("#wishlistBtn").click(function () {
+        if (sessionStorage.getItem("token")) {
+          console.log("logado");
+        } else window.location.href = "/signin";
+      });
+
+      $("#cartBtn").click(function () {
+        if (sessionStorage.getItem("token")) {
+          console.log("logado");
+        } else window.location.href = "/signin";
+      });
+      $(".fa-minus").click(function () {
+        var qtd = $(".quantity").html();
+        if (qtd > 1) {
+          qtd--;
+          $(".quantity").html(qtd);
+        }
+      });
+
+      $(".fa-plus").click(function () {
+        var qtd = $(".quantity").html();
+        qtd++;
+        $(".quantity").html(qtd);
+      });
+
+      $("#buyBtn").click(async function () {
+        if (sessionStorage.getItem("token")) {
+          const variants = <%- JSON.stringify(product[0].variants) %>;
+          const _id = <%- JSON.stringify(product[0]._id) %>;
+          const productId = $(".product-info").attr("id");
+          var address = "tttttt";
+          var items = [];
+          const token = JSON.stringify(sessionStorage.getItem("token"));
+          var color;
+          var size;
+          var width;
+          const quantity = $(".quantity").html().trim();
+
+          if($('#color').children('option').length == 0){
+            color = "empty";
+          } else color = $("#color").find(":selected").val().trim();
+
+          if($('#size').children('option').length == 0){
+            size = "empty";
+          } else size = $("#size").find(":selected").val().trim();
+
+          if($('#width').children('option').length == 0){
+            width = "empty";
+          } else width = $("#width").find(":selected").val().trim();
+
+          var order = {
+            address: address,
+            paymentId: "21122",
+            items: [],
+          };
+
+          if(size == "empty" && width == "empty" && color != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color) {
+                order.items.push({
+                  variant : variants[i],
+                  _id : _id,
+                  productId : productId,
+                  quantity: quantity,
+                });
+              }
+            }
+          }else if(width == "empty" && width == "empty" 
+          && size != "empty" && color != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color &&
+                variants[i].variation_values.size == size || 
+                variants[i].variation_values.accessorySize == size) {
+                  order.items.push({
+                  variant : variants[i],
+                  _id : _id,
+                  productId : productId,
+                  quantity: quantity,
+                });
+              }
+            }
+          } else if(color == "empty" && width == "empty" && size != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if ((variants[i].variation_values.size == size|| 
+              variants[i].variation_values.accessorySize == size)) {
+                order.items.push({
+                  variant : variants[i],
+                  _id : _id,
+                  productId : productId,
+                  quantity: quantity,
+                });
+              }
+            }
+          }else {
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color &&
+                variants[i].variation_values.width == width &&
+                variants[i].variation_values.size == size 
+                || variants[i].variation_values.accessorySize == size) {
+                  order.items.push({
+                  variant : variants[i],
+                  _id : _id,
+                  productId : productId,
+                  quantity: quantity,
+                });
+              }
+            }
+          }
+
+          const response = await fetch("/orders/create", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              token: `${token}`,
+            },
+            body: JSON.stringify({
+              address: address,
+              paymentId: "2332333",
+              items: order.items,
+            }),
+          });
+
+          
+          const data = await response.json();
+          if(data.status == "created"){
+            alert("Order created");
+          }else alert(data.error);
+        } else window.location.href = "/signin";
+      });
+    </script>
+    <script src="../scripts/search.js"></script>
   </body>
 </html>

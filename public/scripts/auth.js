@@ -1,7 +1,7 @@
 $("#signinBtn").click(async function () {
   const result = await signin();
   if (result.user) {
-    sessionStorage.setItem("token", JSON.stringify(result.token));
+    sessionStorage.setItem("token", result.token);
     window.location.href = "/";
   } else {
     alert(result.error);

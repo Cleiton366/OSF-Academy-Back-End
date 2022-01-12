@@ -22,39 +22,17 @@ $(document).ready(async function () {
     return response.json();
   });
   $("#parent_category").html(category_info.name);
-});
 
-$("#wishlistBtn").click(function () {
-  if (sessionStorage.getItem("token")) {
-    console.log("logado");
-  } else window.location.href = "/signin";
-});
-
-$("#cartBtn").click(function () {
-  if (sessionStorage.getItem("token")) {
-    console.log("logado");
-  } else window.location.href = "/signin";
-});
-
-$("#buyBtn").click(function () {
-  var token = sessionStorage.getItem("token");
-  if (sessionStorage.getItem("token")) {
-    console.log("logado");
-  } else window.location.href = "/signin";
-});
-
-$(".fa-minus").click(function () {
-  var qtd = $(".quantity").html();
-  if (qtd > 1) {
-    qtd--;
-    $(".quantity").html(qtd);
-  } else {
-    window.alert("Quantity must be equal or greater than 1");
+  if($('#color').children('option').length == 0){
+    $("#colors").hide();
   }
-});
 
-$(".fa-plus").click(function () {
-  var qtd = $(".quantity").html();
-  qtd++;
-  $(".quantity").html(qtd);
+  if($('#size').children('option').length == 0){
+    $("#sizes").hide();
+  }
+
+  if($('#width').children('option').length == 0){
+    $("#widths").hide();
+  }
+
 });

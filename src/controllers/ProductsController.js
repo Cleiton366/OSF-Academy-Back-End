@@ -12,4 +12,10 @@ async function searchProductsByCategory(req, res) {
     return result;
 }
 
-module.exports = { searchProductsById, searchProductsByCategory };
+async function searchProducts(req, res) {
+    const { key_word } = req.params;
+    const result = await products.searchProducts(key_word);
+    return result;
+}
+
+module.exports = { searchProductsById, searchProductsByCategory, searchProducts };

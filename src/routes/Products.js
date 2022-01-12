@@ -14,4 +14,9 @@ router.get("/products_on_category/:category", async function(req, res){
     res.render("../public/views/products_on_category.ejs", {products});
 });
 
+router.get("/search_result/:key_word", async function(req, res){
+    const products = await productsController.searchProducts(req, res);
+    res.render("../public/views/products_searched.ejs", {products});
+});
+
 module.exports = router;

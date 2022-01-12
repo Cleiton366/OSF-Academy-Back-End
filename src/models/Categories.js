@@ -3,8 +3,7 @@ require("dotenv").config();
 
 async function getCategoryById(id) {
     try {
-        const response = await fetch(`https://osf-digital-backend-academy.herokuapp.com`+
-        `/api/categories/${id}?secretKey=${process.env.API_KEY}`);
+        const response = await fetch(`${process.env.OSF_API_URL}/categories/${id}?secretKey=${process.env.API_KEY}`);
         const data = await response.json();
         return data;
     }catch(err) {
@@ -14,8 +13,7 @@ async function getCategoryById(id) {
 
 async function getCategoryByParentId(id) {
     try {
-        const response = await fetch(`https://osf-digital-backend-academy.herokuapp.com`+
-        `/api/categories/parent/${id}?secretKey=${process.env.API_KEY}`);
+        const response = await fetch(`${process.env.OSF_API_URL}/categories/parent/${id}?secretKey=${process.env.API_KEY}`);
         const data = await response.json();
         return data;
     }catch(err) {
