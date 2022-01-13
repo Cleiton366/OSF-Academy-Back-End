@@ -49,3 +49,8 @@ $(document).ready(async function () {
   }
 
 });
+
+$("#userCart").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/cart/${token}`;
+});

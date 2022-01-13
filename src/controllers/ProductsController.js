@@ -18,4 +18,10 @@ async function searchProducts(req, res) {
     return result;
 }
 
-module.exports = { searchProductsById, searchProductsByCategory, searchProducts };
+async function getProduct(req, res) {
+    const { id } = req.params;
+    const result = await products.searchProductsById(id);
+    return res.json(result);
+}
+
+module.exports = { searchProductsById, searchProductsByCategory, searchProducts, getProduct };

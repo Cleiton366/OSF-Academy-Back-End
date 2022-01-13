@@ -19,4 +19,6 @@ router.get("/search_result/:key_word", async function(req, res){
     res.render("../public/views/products_searched.ejs", {products});
 });
 
+router.get("/getProduct/:id", productsController.getProduct);
+
 module.exports = router;

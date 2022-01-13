@@ -62,7 +62,7 @@
                   <a class="dropdown-item" href="/profile">My Profile</a>
                 </li>
                 <li id="cartLi">
-                  <a class="dropdown-item" href="/cart">Cart</a>
+                  <a class="dropdown-item" id="userCart">Cart</a>
                 </li>
                 <li id="wishlistLi">
                   <a class="dropdown-item" href="/wishlist">Wishlist</a>
@@ -194,34 +194,83 @@
     <script src="../scripts/product.js"></script>
     <script src="../scripts/auth.js"></script>
     <script>
-      $("#wishlistBtn").click(function () {
+      const variants = <%- JSON.stringify(product[0].variants) %>;
+      $("#cartBtn").click(async function () {
         if (sessionStorage.getItem("token")) {
-          console.log("logado");
-        } else window.location.href = "/signin";
-      });
+          const productId = $(".product-info").attr("id");
+          var color;
+          var size;
+          var width;
+          const quantity = $(".quantity").html().trim();
+          var variantId;
 
-      $("#cartBtn").click(function () {
-        if (sessionStorage.getItem("token")) {
-          console.log("logado");
-        } else window.location.href = "/signin";
-      });
-      $(".fa-minus").click(function () {
-        var qtd = $(".quantity").html();
-        if (qtd > 1) {
-          qtd--;
-          $(".quantity").html(qtd);
-        }
-      });
+          if($('#color').children('option').length == 0){
+            color = "empty";
+          } else color = $("#color").find(":selected").val().trim();
 
-      $(".fa-plus").click(function () {
-        var qtd = $(".quantity").html();
-        qtd++;
-        $(".quantity").html(qtd);
+          if($('#size').children('option').length == 0){
+            size = "empty";
+          } else size = $("#size").find(":selected").val().trim();
+
+          if($('#width').children('option').length == 0){
+            width = "empty";
+          } else width = $("#width").find(":selected").val().trim();
+
+          if(size == "empty" && width == "empty" && color != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color) {
+                variantId = variants[i].product_id;
+              }
+            }
+          }else if(width == "empty" && width == "empty" 
+          && size != "empty" && color != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color &&
+                variants[i].variation_values.size == size || 
+                variants[i].variation_values.accessorySize == size) {
+                  variantId = variants[i].product_id;
+              }
+            }
+          } else if(color == "empty" && width == "empty" && size != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if ((variants[i].variation_values.size == size|| 
+              variants[i].variation_values.accessorySize == size)) {
+                variantId = variants[i].product_id;
+              }
+            }
+          }else {
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color &&
+                variants[i].variation_values.width == width &&
+                variants[i].variation_values.size == size 
+                || variants[i].variation_values.accessorySize == size) {
+                  variantId = variants[i].product_id;
+              }
+            }
+          }
+
+          const response = await fetch("/cart/addItem", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            token: sessionStorage.getItem("token"),
+          },
+          body: JSON.stringify({
+            productId: productId,
+            variantId: variantId,
+            quantity: 1,
+          }),
+        });
+
+        const data = await response.json();
+        if (data.items) {
+          window.alert("Item added to cart");
+        } else window.alert(data.error);
+      } else window.location.href = "/signin";
       });
 
       $("#buyBtn").click(async function () {
         if (sessionStorage.getItem("token")) {
-          const variants = <%- JSON.stringify(product[0].variants) %>;
           const _id = <%- JSON.stringify(product[0]._id) %>;
           const productId = $(".product-info").attr("id");
           var address = "tttttt";

@@ -1,9 +1,9 @@
 const cart = require("../models/Cart");
 
 async function getCart(req, res) {
-  const { token } = req.headers;
+  const { token } = req.params;
   const result = await cart.getCart(token);
-  return res.json(result);
+  return result;
 }
 
 async function addItemCart(req, res) {
@@ -21,7 +21,7 @@ async function removeItemCart(req, res) {
 }
 
 async function changeQuantityItem(req, res) {
-    const {productId, variantId,quantity} = req.body;
+    const {productId, variantId, quantity} = req.body;
     const { token } = req.headers;
     const result = await cart.changeQuantityItem(productId, variantId, quantity, token);
     return res.json(result);

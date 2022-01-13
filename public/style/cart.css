@@ -1,0 +1,15 @@
+@import url(global.css);
+
+#cartTotal{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+}
+
+#cartTotal>p {
+    margin-right: 10px;
+}
+
+.fa-trash, .fa-minus, .fa-plus {
+    cursor: pointer;
+}

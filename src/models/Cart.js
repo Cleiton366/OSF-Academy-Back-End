@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 require("dotenv").config();
 
 async function getCart(token) {
+    token = token.replace(/\"/g, "");
     try {
         const response = await fetch(`${process.env.OSF_API_URL}/cart?secretKey=${process.env.API_KEY}`, {
             method: "GET",

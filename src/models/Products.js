@@ -31,4 +31,5 @@ async function searchProducts(key_word) {
     }
 }
 
+
 module.exports = { searchProductsById, searchProductsByCategory, searchProducts };

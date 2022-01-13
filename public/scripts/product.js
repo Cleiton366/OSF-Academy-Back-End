@@ -17,22 +17,48 @@ $(document).ready(async function () {
     $("#wishlistLi").hide();
   }
 
-  var category = $("#parent_category").attr("href").match(/products_on_category(.+)/)[1];
+  var category = $("#parent_category")
+    .attr("href")
+    .match(/products_on_category(.+)/)[1];
   var category_info = await fetch(`/category${category}`).then((response) => {
     return response.json();
   });
   $("#parent_category").html(category_info.name);
 
-  if($('#color').children('option').length == 0){
+  if ($("#color").children("option").length == 0) {
     $("#colors").hide();
   }
 
-  if($('#size').children('option').length == 0){
+  if ($("#size").children("option").length == 0) {
     $("#sizes").hide();
   }
 
-  if($('#width').children('option').length == 0){
+  if ($("#width").children("option").length == 0) {
     $("#widths").hide();
   }
+});
 
+$("#wishlistBtn").click(function () {
+  if (sessionStorage.getItem("token")) {
+    console.log("logado");
+  } else window.location.href = "/signin";
+});
+
+$(".fa-minus").click(function () {
+  var qtd = $(".quantity").html();
+  if (qtd > 1) {
+    qtd--;
+    $(".quantity").html(qtd);
+  }
+});
+
+$(".fa-plus").click(function () {
+  var qtd = $(".quantity").html();
+  qtd++;
+  $(".quantity").html(qtd);
+});
+
+$("#userCart").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/cart/${token}`;
 });
