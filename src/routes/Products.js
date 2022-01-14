@@ -3,7 +3,6 @@ const express = require("express");
 const productsController = require("../controllers/ProductsController");
 const router = express.Router();
 
-
 router.get("/product/:id", async function (req, res) {
     const product =  await productsController.searchProductsById(req, res);
     res.render("../public/views/product.ejs", {product});

@@ -1,4 +1,5 @@
 const order = require("../models/Order");
+const paypalServices = require("../services/PaypalServices");
 
 async function getOrders(req, res) {
   const { token } = req.headers;
@@ -13,4 +14,18 @@ async function createOrder(req, res) {
     return res.json(result);
 }
 
-module.exports = { getOrders, createOrder };
+async function checkOut(req, res) {
+  const { items, amount, token} = req.query;
+  const itemsArr = JSON.parse(items);
+  const result = await paypalServices.checkOut(itemsArr, amount, token);
+  return res.redirect(result);
+}
+
+async function checkOutExecute(req, res) {
+  const { paymentId, PayerID } = req.query;
+  const { amount, items, token } = req.params
+  const result = await paypalServices.checkOutExecute(paymentId, PayerID, amount, items, token);
+  return res.json(result);
+}
+
+module.exports = { getOrders, createOrder, checkOut, checkOutExecute };

@@ -111,7 +111,10 @@
       />
       <div class="info">
         <h3><%=product[0].name%></h3>
-        <p>$<%=product[0].price%></p>
+        <div style="display: flex;">
+          <p>$</p>
+          <p id="price"><%=parseFloat(product[0].price).toFixed(2)%></p>
+        </div>
         <div class="quantity-container">
           <p>Quantity</p>
           <i class="fas fa-minus"></i>
@@ -222,18 +225,18 @@
                 variantId = variants[i].product_id;
               }
             }
-          }else if(width == "empty" && width == "empty" 
+          }else if(width == "empty" && width == "empty"
           && size != "empty" && color != "empty"){
             for (var i = 0; i < variants.length; i++) {
               if (variants[i].variation_values.color == color &&
-                variants[i].variation_values.size == size || 
+                variants[i].variation_values.size == size ||
                 variants[i].variation_values.accessorySize == size) {
                   variantId = variants[i].product_id;
               }
             }
           } else if(color == "empty" && width == "empty" && size != "empty"){
             for (var i = 0; i < variants.length; i++) {
-              if ((variants[i].variation_values.size == size|| 
+              if ((variants[i].variation_values.size == size||
               variants[i].variation_values.accessorySize == size)) {
                 variantId = variants[i].product_id;
               }
@@ -242,7 +245,7 @@
             for (var i = 0; i < variants.length; i++) {
               if (variants[i].variation_values.color == color &&
                 variants[i].variation_values.width == width &&
-                variants[i].variation_values.size == size 
+                variants[i].variation_values.size == size
                 || variants[i].variation_values.accessorySize == size) {
                   variantId = variants[i].product_id;
               }
@@ -310,11 +313,11 @@
                 });
               }
             }
-          }else if(width == "empty" && width == "empty" 
+          }else if(width == "empty" && width == "empty"
           && size != "empty" && color != "empty"){
             for (var i = 0; i < variants.length; i++) {
               if (variants[i].variation_values.color == color &&
-                variants[i].variation_values.size == size || 
+                variants[i].variation_values.size == size ||
                 variants[i].variation_values.accessorySize == size) {
                   order.items.push({
                   variant : variants[i],
@@ -326,7 +329,7 @@
             }
           } else if(color == "empty" && width == "empty" && size != "empty"){
             for (var i = 0; i < variants.length; i++) {
-              if ((variants[i].variation_values.size == size|| 
+              if ((variants[i].variation_values.size == size||
               variants[i].variation_values.accessorySize == size)) {
                 order.items.push({
                   variant : variants[i],
@@ -340,7 +343,7 @@
             for (var i = 0; i < variants.length; i++) {
               if (variants[i].variation_values.color == color &&
                 variants[i].variation_values.width == width &&
-                variants[i].variation_values.size == size 
+                variants[i].variation_values.size == size
                 || variants[i].variation_values.accessorySize == size) {
                   order.items.push({
                   variant : variants[i],
@@ -351,25 +354,8 @@
               }
             }
           }
-
-          const response = await fetch("/orders/create", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              token: `${token}`,
-            },
-            body: JSON.stringify({
-              address: address,
-              paymentId: "2332333",
-              items: order.items,
-            }),
-          });
-
-          
-          const data = await response.json();
-          if(data.status == "created"){
-            alert("Order created");
-          }else alert(data.error);
+          const amount = parseFloat($("#price").html().trim()) * parseFloat($(".quantity").html().trim());
+          window.location.href = `/checkout?amount=${amount}&items=${encodeURIComponent(JSON.stringify(order.items))}&token=${token}`;
         } else window.location.href = "/signin";
       });
     </script>

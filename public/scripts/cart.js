@@ -28,6 +28,12 @@ $(".fa-trash").click(function () {
     $("#price" + productId).text() * $("#quantity" + productId).text();
   $("#total").text(newTotal);
   $(this).parent().parent().remove();
+  if($("#total").text() == 0) {
+    $("#cartTotal").remove();
+    $(".p-2").remove();
+    $(".col-md-8").append("<h5>There is no cart created for this user</h5>");
+  }
+    
   fetch("/cart/removeItem", {
     method: "DELETE",
     headers: {
