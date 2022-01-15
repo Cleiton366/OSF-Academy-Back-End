@@ -21,7 +21,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>My Cart</title>
+    <title>My Wishlist</title>
   </head>
   <body>
     <!--- nav -->
@@ -66,10 +66,10 @@
                   <a class="dropdown-item" id="userProfile">My Profile</a>
                 </li>
                 <li id="cartLi">
-                  <a class="dropdown-item" href="#">Cart</a>
+                  <a class="dropdown-item" id="userCart">Cart</a>
                 </li>
                 <li id="wishlistLi">
-                  <a class="dropdown-item" id="userWishlist">Wishlist</a>
+                  <a class="dropdown-item" href="#">Wishlist</a>
                 </li>
                 <li id="signoutLi"><a class="dropdown-item">Sign Out</a></li>
               </ul>
@@ -93,15 +93,15 @@
     <div class="container mt-5 mb-5">
       <div class="d-flex justify-content-center row">
         <div class="col-md-8">
-          <%var total = 0;%> <%if(!(cart.error)) {%>
+        <%if(!(wishlist.error)) {%>
           <div class="p-2">
-            <h4>Shopping cart</h4>
+            <h4>Wishlist</h4>
           </div>
           <!-- single product  -->
           <div id="products-container">
-            <%for(var i = 0; i < cart.items.length; i++){%>
+            <%for(var i = 0; i < wishlist.items.length; i++){%>
             <div
-              id="<%=cart.items[i].productId%>"
+              id="<%=wishlist.items[i].productId%>"
               class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded"
             >
               <div id="product-<%=i+1%>"></div>
@@ -115,73 +115,55 @@
                   >Product name</span
                 >
                 <div class="d-flex flex-row product-desc">
-                  <%if(cart.items[i].variant.variation_values.size){%>
+                  <%if(wishlist.items[i].variant.variation_values.size){%>
                   <div class="size mr-1">
                     <span class="text-grey">Size:</span
                     ><span
                       style="color: grey; margin-right: 3px"
                       class="font-weight-bold"
                       style="margin-right: 2px"
-                      >&nbsp;<%=cart.items[i].variant.variation_values.size%></span
+                      >&nbsp;<%=wishlist.items[i].variant.variation_values.size%></span
                     >
                   </div>
-                  <%}%> <%if(cart.items[i].variant.variation_values.color){%>
+                  <%}%> <%if(wishlist.items[i].variant.variation_values.color){%>
                   <div class="color">
                     <span class="text-grey">Color:</span
                     ><span
                       style="color: grey; margin-right: 3px"
                       class="font-weight-bold"
-                      >&nbsp;<%=cart.items[i].variant.variation_values.color%></span
+                      >&nbsp;<%=wishlist.items[i].variant.variation_values.color%></span
                     >
                   </div>
-                  <%}%> <%if(cart.items[i].variant.variation_values.width){%>
+                  <%}%> <%if(wishlist.items[i].variant.variation_values.width){%>
                   <div class="color">
                     <span class="text-grey">Width:</span
                     ><span style="color: grey" class="font-weight-bold"
-                      >&nbsp;<%=cart.items[i].variant.variation_values.width%></span
+                      >&nbsp;<%=wishlist.items[i].variant.variation_values.width%></span
                     >
                   </div>
                   <%}%>
                 </div>
               </div>
-              <div
-                id="quantity-<%=cart.items[i].variant.product_id%>"
-                class="d-flex flex-row align-items-center qty"
-              >
-                <i class="fa fa-minus"></i>
-                <h5 id="quantity<%=cart.items[i].productId%>">
-                  <%=cart.items[i].quantity%>
-                </h5>
-                <i class="fa fa-plus"></i>
-              </div>
               <div style="display: flex">
                 <h5>$</h5>
-                <h5 id="price<%=cart.items[i].productId%>" class="text-grey">
-                  <%=cart.items[i].variant.price%>
+                <h5 id="price<%=wishlist.items[i].productId%>" class="text-grey">
+                  <%=wishlist.items[i].variant.price%>
                 </h5>
+                <a href="/product/<%=wishlist.items[i].productId%>" style="margin-left: 45px; margin-right: 0px;">
+                    <div class="btn">Buy Now</div>
+                </a>
               </div>
               <div
-                id="<%=cart.items[i].variant.product_id%>"
+                id="<%=wishlist.items[i].variant.product_id%>"
                 class="d-flex align-items-center"
               >
                 <i class="fa fa-trash mb-1 text-danger"></i>
               </div>
             </div>
-            <%total += (cart.items[i].variant.price * cart.items[i].quantity)%>
             <%}%>
           </div>
-          <div id="cartTotal">
-            <p style="margin-right: 1px">Total: $</p>
-            <p id="total"><%=parseFloat(total).toFixed(2)%></p>
-            <button
-              class="btn btn-warning btn-block btn-lg ml-2 pay-button"
-              type="button"
-            >
-              Proceed to Pay
-            </button>
-          </div>
           <%}else{%>
-          <h5><%=cart.error%></h5>
+          <h5><%=wishlist.error%></h5>
           <%}%>
         </div>
       </div>
@@ -199,27 +181,6 @@
     ></script>
     <script src="../scripts/auth.js"></script>
     <script src="../scripts/search.js"></script>
-    <script src="../scripts/cart.js"></script>
-    <script>
-      $(".pay-button").click(async function () {
-        const items = <%-JSON.stringify(cart.items)%>;
-        for (var i = 0; i < items.length; i++) {
-          await fetch("/cart/removeItem", {
-            method: "DELETE",
-            headers: {
-              "Content-Type": "application/json",
-              token: sessionStorage.getItem("token"),
-            },
-            body: JSON.stringify({
-              productId: items[i].productId,
-              variantId: items[i].variant.product_id,
-            }),
-          });
-        }
-        const token = JSON.stringify(sessionStorage.getItem("token"));
-        const amount = parseFloat($("#total").html().trim());
-        window.location.href = `/checkout?amount=${amount}&items=${encodeURIComponent(JSON.stringify(items))}&token=${token}`;
-      });
-    </script>
+    <script src="../scripts/wishlist.js"></script>
   </body>
 </html>

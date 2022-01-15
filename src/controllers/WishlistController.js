@@ -1,9 +1,9 @@
 const wishlist = require("../models/Wishlist");
 
 async function getWishlist(req, res) {
-  const { token } = req.headers;
+  const { token } = req.params;
   const result = await wishlist.getWishlist(token);
-  return res.json(result);
+  return result;
 }
 
 async function addItemWishlist(req, res) {

@@ -26,9 +26,9 @@ async function checkOut(items, amount, token) {
       payment_method: "paypal",
     },
     redirect_urls: {
-      return_url: `http://localhost:4000/checkoutExecute/${amount}/${encodeURIComponent(
+      return_url: process.env.API+`/checkoutExecute/${amount}/${encodeURIComponent(
         JSON.stringify(items))}/${token}`,
-      cancel_url: "http://localhost:4000/",
+      cancel_url: process.env.API,
     },
     transactions: [
       {
@@ -93,7 +93,7 @@ async function checkOutExecute(paymentId, PayerID, amount, itemsArr, token) {
 
   const data = await response.json();
   if(data.status == "created"){
-    return data;
+    return token;
   }else return {
     status: data.error,
   }

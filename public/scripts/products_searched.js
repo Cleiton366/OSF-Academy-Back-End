@@ -46,7 +46,40 @@ $(".fa-shopping-cart").click(async function () {
   }
 });
 
+$(".fa-plus").click(async function () {
+  if (sessionStorage.getItem("token")) {
+    const response = await fetch("/wishlist/addItem", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        token: sessionStorage.getItem("token"),
+      },
+      body: JSON.stringify({
+        productId: $(this).parent().parent().parent().parent().parent().attr("id"),
+        variantId: $(this).parent().parent().parent().attr("id"),
+        quantity: 1,
+      }),
+    });
+    const data = await response.json();
+    if (data.items) {
+      window.alert("Item added to wishlist");
+    } else window.alert(data.error);
+  } else {
+    window.location.href = "/signin";
+  }
+});
+
 $("#userCart").click(function(){
   const token = sessionStorage.getItem("token")
   window.location.href = `/cart/${token}`;
+});
+
+$("#userWishlist").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/wishlist/${token}`;
+});
+
+$("#userProfile").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/profile/${token}`;
 });

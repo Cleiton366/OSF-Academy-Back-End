@@ -1,0 +1,21 @@
+@import url(global.css);
+
+#userInfo {
+    margin-top: 20vh;
+    height: 40vh;
+    text-align: center;
+}
+
+#userOrders {
+    margin-top: 20vh;
+    height: 40vh;
+    text-align: center;
+}
+
+.order {
+    display: inline-flex;
+}
+
+.order>p {
+    margin-right: 30px;
+}

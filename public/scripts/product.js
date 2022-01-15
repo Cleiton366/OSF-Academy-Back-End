@@ -62,3 +62,13 @@ $("#userCart").click(function(){
   const token = sessionStorage.getItem("token")
   window.location.href = `/cart/${token}`;
 });
+
+$("#userWishlist").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/wishlist/${token}`;
+});
+
+$("#userProfile").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/profile/${token}`;
+});

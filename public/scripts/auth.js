@@ -1,6 +1,12 @@
 $("#signinBtn").click(async function () {
   const result = await signin();
   if (result.user) {
+    const user = {
+      name: result.user.name,
+      email: result.user.email,
+      createdAt: result.user.createdAt,
+    }
+    sessionStorage.setItem("user", JSON.stringify(user));
     sessionStorage.setItem("token", result.token);
     window.location.href = "/";
   } else {
@@ -20,6 +26,7 @@ $("#signupBtn").click(async function () {
 
 $("#signoutLi").click(function () {
   sessionStorage.removeItem("token");
+  sessionStorage.removeItem("user");
   window.location.href = "/";
 });
 

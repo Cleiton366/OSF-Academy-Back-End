@@ -100,3 +100,13 @@ async function getProductsInfo(){
     $("#img-"+i).attr("src", "../images/"+data[0].image_groups[1].images[0].link);
   }
 }
+
+$("#userWishlist").click(function(){
+  const token = sessionStorage.getItem("token")
+  window.location.href = `/wishlist/${token}`;
+});
+
+$("#userProfile").click(function(){
+  const token = sessionStorage.getItem("token");
+  window.location.href = `/profile/${token}`;
+});

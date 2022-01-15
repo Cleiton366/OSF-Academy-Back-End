@@ -25,7 +25,7 @@ async function checkOutExecute(req, res) {
   const { paymentId, PayerID } = req.query;
   const { amount, items, token } = req.params
   const result = await paypalServices.checkOutExecute(paymentId, PayerID, amount, items, token);
-  return res.json(result);
+  return result;
 }
 
 module.exports = { getOrders, createOrder, checkOut, checkOutExecute };

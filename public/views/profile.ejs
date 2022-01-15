@@ -10,7 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../style/products_category.css" />
+    <link rel="stylesheet" href="../style/userProfile.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>OSF Store</title>
+    <title>My Profile</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -62,7 +62,7 @@
                   <a class="dropdown-item" href="/signup">Sign Up</a>
                 </li>
                 <li id="profileLi">
-                  <a class="dropdown-item" id="userProfile">My Profile</a>
+                  <a class="dropdown-item" href="#">My Profile</a>
                 </li>
                 <li id="cartLi">
                   <a class="dropdown-item" id="userCart">Cart</a>
@@ -88,48 +88,88 @@
         </div>
       </div>
     </nav>
-    
-    <!-- products list -->
 
-    <section class="section-products">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-md-8 col-lg-6">
+    <div class="container">
+      <div class="row">
+        <div id="userInfo" class="col">
+          <h3>
+            Welcome back
+            <p id="userName">username</p>
+          </h3>
+          <p id="userEmail">EmailUser@email</p>
+          <div class="col">
+              <div  class="btn" id="userCartBtn" style="position: relative; margin-right: 20px;">
+                My Cart
+                <i class="fas fa-shopping-cart"></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                >
+                  <%=profileInfo.cartCount%>
+                </span>
+              </div>          
+              <div  class="btn" id="userWishlistBtn" style="position: relative">
+                My Wishlist
+                <i class="fas fa-plus"></i>
+                <span
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                >
+                  <%=profileInfo.wishlistCount%>
+                </span>
+              </div>
           </div>
         </div>
-        <div class="row">
-          <!-- Single Product-->
-          <%for(var i = 0; i < products.length; i++) { %>
-          <div class="col-md-6 col-lg-4 col-xl-3">
-            <div id="<%=products[i].id%>" class="single-product">
+        <div class="col" id="userOrders">
+          <h3>My Orders</h3>
+          <%if(!(profileInfo.orders.error)){%> 
+            <%for(var i = 0; i < profileInfo.orders.length; i++){%>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-heading<%=i%>">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapse<%=i%>"
+                  aria-expanded="false"
+                  aria-controls="flush-collapse<%=i%>"
+                >
+                <div class="order">
+                    <p>Order-<%=profileInfo.orders[i]._id%></p>
+                    <p>Payment Method: Paypal</p>
+                    <p>status: <%=profileInfo.orders[i].status%></p>
+                </div>
+                </button>
+              </h2>
               <div
-                class="part-1"
-                style="
-                  background: url('../images/<%=products[i].image_groups[0].images[0].link%>')
-                    no-repeat center;
-                  background-size: cover;
-                "
+                id="flush-collapse<%=i%>"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-heading<%=i%>"
+                data-bs-parent="#accordionFlushExample"
               >
-                <ul id="<%= products[i].variants[0].product_id%>">
-                  <li>
-                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fas fa-plus"></i></a>
-                  </li>
-                </ul>
-              </div>
-              <div class="part-2" id="<%=products[i]._id%>">
-                <h3 class="product-title"><%= products[i].page_title%></h3>
-                <h4 class="product-price">$<%= products[i].price%></h4>
-                <div class="btn" id="<%=products[i].id%>">Buy Now</div>
+                <div class="accordion-body">
+                    <ul class="list-group">
+                        <%for(var j = 0; j < profileInfo.orders[i].items.length; j++){%>
+                            <li class="list-group-item">
+                                <div class="order">
+                                    <p>productId: <%=profileInfo.orders[i].items[j].productId%></p>
+                                    <p>product variant: <%=JSON.stringify(profileInfo.orders[i].items[j].variant.variation_values)%></p>
+                                    <p>quantity: <%=profileInfo.orders[i].items[j].quantity%></p>
+                                    <p>price: <%=profileInfo.orders[i].items[j].variant.price%></p>
+                                </div>
+                            </li>
+                        <%}%>
+                    </ul>
+                </div>
               </div>
             </div>
           </div>
+            <%}%> 
+          <%} else {%>
+          <h5><%=profileInfo.orders.error%></h5>
           <%}%>
         </div>
       </div>
-    </section>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -141,7 +181,7 @@
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
       crossorigin="anonymous"
     ></script>
-    <script src="../scripts/products_searched.js"></script>
+    <script src="../scripts/profile.js"></script>
     <script src="../scripts/auth.js"></script>
     <script src="../scripts/search.js"></script>
   </body>

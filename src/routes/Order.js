@@ -10,6 +10,11 @@ router.post("/orders/create", orderController.createOrder);
 
 router.get("/checkout", orderController.checkOut);
 
-router.get("/checkoutExecute/:amount/:items/:token", orderController.checkOutExecute);
+router.get("/checkoutExecute/:amount/:items/:token", async function(req, res){
+    const result = await orderController.checkOutExecute(req, res);
+    if(result.error){
+        res.send(result.error);
+    }else res.redirect("/profile/"+result);
+});
 
 module.exports = router;

@@ -7,7 +7,8 @@ const ordersRouter = require("./routes/Order");
 const productsRouter = require("./routes/Products");
 const wishlistRouter = require("./routes/Wishlist");
 const categoriesRouter = require("./routes/Categories");
-const viewsRouter = require("./routes/Views");
+const indexRouter = require("./routes/index");
+const profileRouter = require("./routes/Profile");
 
 const app = express();
 app.use(express.json());
@@ -21,6 +22,7 @@ app.use(categoriesRouter);
 app.use(ordersRouter);
 app.use(productsRouter);
 app.use(wishlistRouter);
-app.use(viewsRouter);
+app.use(indexRouter);
+app.use(profileRouter);
 
 module.exports = app;
