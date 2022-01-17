@@ -271,7 +271,79 @@
         } else window.alert(data.error);
       } else window.location.href = "/signin";
       });
+      $("#wishlistBtn").click(async function () {
+        if (sessionStorage.getItem("token")) {
+          const productId = $(".product-info").attr("id");
+          var color;
+          var size;
+          var width;
+          const quantity = $(".quantity").html().trim();
+          var variantId;
 
+          if($('#color').children('option').length == 0){
+            color = "empty";
+          } else color = $("#color").find(":selected").val().trim();
+
+          if($('#size').children('option').length == 0){
+            size = "empty";
+          } else size = $("#size").find(":selected").val().trim();
+
+          if($('#width').children('option').length == 0){
+            width = "empty";
+          } else width = $("#width").find(":selected").val().trim();
+
+          if(size == "empty" && width == "empty" && color != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color) {
+                variantId = variants[i].product_id;
+              }
+            }
+          }else if(width == "empty" && width == "empty"
+          && size != "empty" && color != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color &&
+                variants[i].variation_values.size == size ||
+                variants[i].variation_values.accessorySize == size) {
+                  variantId = variants[i].product_id;
+              }
+            }
+          } else if(color == "empty" && width == "empty" && size != "empty"){
+            for (var i = 0; i < variants.length; i++) {
+              if ((variants[i].variation_values.size == size||
+              variants[i].variation_values.accessorySize == size)) {
+                variantId = variants[i].product_id;
+              }
+            }
+          }else {
+            for (var i = 0; i < variants.length; i++) {
+              if (variants[i].variation_values.color == color &&
+                variants[i].variation_values.width == width &&
+                variants[i].variation_values.size == size
+                || variants[i].variation_values.accessorySize == size) {
+                  variantId = variants[i].product_id;
+              }
+            }
+          }
+
+          const response = await fetch("/wishlist/addItem", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            token: sessionStorage.getItem("token"),
+          },
+          body: JSON.stringify({
+            productId: productId,
+            variantId: variantId,
+            quantity: 1,
+          }),
+        });
+
+        const data = await response.json();
+        if (data.items) {
+          window.alert("Item added to wishlist");
+        } else window.alert(data.error);
+      } else window.location.href = "/signin";
+      });
       $("#buyBtn").click(async function () {
         if (sessionStorage.getItem("token")) {
           const _id = <%- JSON.stringify(product[0]._id) %>;

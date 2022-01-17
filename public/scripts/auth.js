@@ -4,10 +4,10 @@ $("#signinBtn").click(async function () {
     const user = {
       name: result.user.name,
       email: result.user.email,
-      createdAt: result.user.createdAt,
     }
+    const token = result.token.replace(/\"/g, "");
     sessionStorage.setItem("user", JSON.stringify(user));
-    sessionStorage.setItem("token", result.token);
+    sessionStorage.setItem("token", token);
     window.location.href = "/";
   } else {
     alert(result.error);
@@ -17,7 +17,13 @@ $("#signinBtn").click(async function () {
 $("#signupBtn").click(async function () {
   const result = await signup();
   if (result.user) {
-    sessionStorage.setItem("token", JSON.stringify(result.token));
+    const user = {
+      name: result.user.name,
+      email: result.user.email,
+    }
+    const token = result.token.replace(/\"/g, "");
+    sessionStorage.setItem("user", JSON.stringify(user));
+    sessionStorage.setItem("token", token);
     window.location.href = "/";
   } else {
     alert(result.error);

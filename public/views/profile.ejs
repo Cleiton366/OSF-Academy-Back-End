@@ -151,8 +151,13 @@
                         <%for(var j = 0; j < profileInfo.orders[i].items.length; j++){%>
                             <li class="list-group-item">
                                 <div class="order">
+                                    <%var variant = JSON.stringify(profileInfo.orders[i].items[j].variant.variation_values).replace(/"}/g,"")%>
+                                    <%variant = variant.replace(/{"/g,"")%>
+                                    <%variant = variant.replace(/"/g,"")%>
+                                    <%variant = variant.replace(/,/g,", ")%>
+                                    <%variant = variant.replace(/:/g,": ")%>
                                     <p>productId: <%=profileInfo.orders[i].items[j].productId%></p>
-                                    <p>product variant: <%=JSON.stringify(profileInfo.orders[i].items[j].variant.variation_values)%></p>
+                                    <p><%=variant%></p>
                                     <p>quantity: <%=profileInfo.orders[i].items[j].quantity%></p>
                                     <p>price: <%=profileInfo.orders[i].items[j].variant.price%></p>
                                 </div>
