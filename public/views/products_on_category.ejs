@@ -117,7 +117,11 @@
                   background-size: cover;
                 "
               >
-                <ul id="<%= products[i].variants[0].product_id%>">
+                <%if(products[i].variants.length > 0){%>
+                  <ul id="<%= products[i].variants[0].product_id%>">
+                <%}else {%>
+                  <ul>
+                <%}%>  
                   <li>
                     <a href="#"><i class="fas fa-shopping-cart"></i></a>
                   </li>
