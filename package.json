@@ -4,10 +4,16 @@
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "node-fetch": "2",
-    "nodemon": "^2.0.15",
     "paypal-rest-sdk": "^1.8.1"
   },
   "scripts": {
-    "dev": "nodemon -e js,ejs,css ./src/server.js"
+    "dev": "nodemon -e js,ejs,css ./src/server.js --ignore __tests__",
+    "start": "nodemon -e js,ejs,css ./src/server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.1"
   }
 }

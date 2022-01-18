@@ -7,7 +7,7 @@ const router = express.Router();
 router.get("/category/:id", categoriesController.getCategoryById);
 
 //Get Categories by Parent ID
-router.get("/category/parent/", categoriesController.getCategoryByParentId);
+router.get("/category/parent/:id", categoriesController.getCategoryByParentId);
 
 //​Get All Categories
 router.get("/all_categories", categoriesController.getAllCategories);
