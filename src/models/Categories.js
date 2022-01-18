@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const { Sentry } = require("../utils/sentry");
 require("dotenv").config();
 
 async function getCategoryById(id) {
@@ -7,7 +8,7 @@ async function getCategoryById(id) {
         const data = await response.json();
         return data;
     }catch(err) {
-        console.log(err);
+        Sentry.captureException(err);
     }
 }
 
@@ -17,7 +18,7 @@ async function getCategoryByParentId(id) {
         const data = await response.json();
         return data;
     }catch(err) {
-        console.log(err);
+        Sentry.captureException(err);;
     }
 }
 

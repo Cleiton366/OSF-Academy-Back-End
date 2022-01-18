@@ -1,5 +1,10 @@
 const express = require("express");
 require("dotenv").config();
+const { Sentry } = require("./utils/sentry");
+
+const app = express();
+app.use(Sentry.Handlers.requestHandler());
+app.use(Sentry.Handlers.errorHandler());
 
 const authRouter = require("./routes/Auth");
 const cartRouter = require("./routes/Cart");
@@ -10,10 +15,8 @@ const categoriesRouter = require("./routes/Categories");
 const indexRouter = require("./routes/index");
 const profileRouter = require("./routes/Profile");
 
-const app = express();
 app.use(express.json());
 app.use(express.static("public"));
-//app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
 app.use(authRouter);

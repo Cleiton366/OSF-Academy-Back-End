@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const { Sentry } = require("../utils/sentry");
 require("dotenv").config();
 
 async function getCart(token) {
@@ -12,7 +13,7 @@ async function getCart(token) {
         const data = await response.json();
         return data;
     }catch(err){
-        console.log(err);
+        Sentry.captureException(err);
     }
 }
 
@@ -32,7 +33,7 @@ async function addItemCart(productId, variantId, quantity, token) {
         const data = await response.json();
         return data;
     }catch(err) {
-        console.log(err);
+        Sentry.captureException(err);
     }
 }
 
@@ -52,7 +53,7 @@ async function removeItemCart(productId, variantId, token) {
             status: "Item removed from the cart"
         }
     }catch(err) {
-        console.log(err);
+        Sentry.captureException(err);
     }
 }
 
@@ -72,7 +73,7 @@ async function changeQuantityItem(productId, variantId,quantity, token) {
         const data = await response.json();
         return data;
     }catch (err) {
-        console.log(err);
+        Sentry.captureException(err);
     }
 }
 

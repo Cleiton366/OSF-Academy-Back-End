@@ -1,4 +1,5 @@
 const fetch = require("node-fetch");
+const { Sentry } = require("../utils/sentry");
 require("dotenv").config();
 
 async function getProfileInfo(token) {
@@ -34,7 +35,7 @@ async function getCartCount(token) {
       return cartCount;
     }else return 0;
   } catch (err) {
-    console.log(err);
+    Sentry.captureException(err);
   }
 }
 
@@ -56,7 +57,7 @@ async function getWishlistCount(token) {
           return wishlistCount;
         }else return 0;
       } catch (err) {
-        console.log(err);
+        Sentry.captureException(err);
       }
 }
 
@@ -75,7 +76,7 @@ async function getOrders(token) {
         const data = await response.json();
         return data;
       } catch (err) {
-        console.log(err);
+        Sentry.captureException(err);
       }
 }
 

@@ -1,4 +1,5 @@
 const fetch = require("node-fetch");
+const { Sentry } = require("../utils/sentry");
 require("dotenv").config();
 
 async function getOrders(token) {
@@ -16,7 +17,7 @@ async function getOrders(token) {
     const data = await response.json();
     return data;
   } catch (err) {
-    console.log(err);
+    Sentry.captureException(err);
   }
 }
 
@@ -39,7 +40,7 @@ async function createOrder(address, paymentId, items, token) {
     const data = await response.json();
     return data;
   } catch (err) {
-    console.log(err);
+    Sentry.captureException(err);
   }
 }
 

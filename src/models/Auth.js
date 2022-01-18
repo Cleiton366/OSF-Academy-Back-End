@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const { Sentry } = require("../utils/sentry");
 require("dotenv").config();
 
 async function signUp(name, email, password) {
@@ -17,7 +18,7 @@ async function signUp(name, email, password) {
     const data = await response.json();
     return data;
   } catch (err) {
-    console.log(err);
+    Sentry.captureException(err);
   }
 
 }
@@ -37,7 +38,7 @@ async function signIn(email, password) {
     const data = await response.json();
     return data;
   } catch (err) {
-    console.log(err);
+    Sentry.captureException(err);
   }
 
 }
