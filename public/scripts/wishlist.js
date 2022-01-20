@@ -25,6 +25,11 @@ $("#userCart").click(function () {
   window.location.href = `/cart/${token}`;
 });
 
+$("#userProfile").click(function () {
+  const token = sessionStorage.getItem("token");
+  window.location.href = `/profile/${token}`;
+});
+
 $(".fa-trash").click(function () {
   const productId = $(this).parent().parent().attr("id");
   const variantId = $(this).parent().attr("id");

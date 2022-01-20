@@ -1,6 +1,11 @@
 @import url(global.css);
 
-#login-container {
+
+#auth-container {
+    height: 100vh;
+}
+
+#auth {
     width: 400px;
     margin: 0 auto;
     margin-top: 100px;

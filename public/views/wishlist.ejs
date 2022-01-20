@@ -90,7 +90,7 @@
       </div>
     </nav>
 
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5 mb-5" style="height: 100vh;">
       <div class="d-flex justify-content-center row">
         <div class="col-md-8">
         <%if(!(wishlist.error)) {%>
@@ -103,6 +103,7 @@
             <div
               id="<%=wishlist.items[i].productId%>"
               class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded"
+              style="height: 100%;"
             >
               <div id="product-<%=i+1%>"></div>
               <div class="mr-1">

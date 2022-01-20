@@ -12,6 +12,7 @@ a {
 body {
     color: #000000;
     background: #f1eaea;
+    height: 100vh;
 }
 
 .btn {
@@ -56,3 +57,9 @@ body {
   text-decoration: none;
 }
 
+#footer {
+  margin-top: 5vh;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

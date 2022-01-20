@@ -1,5 +1,6 @@
 @import url(global.css);
 
+
 #userInfo {
     margin-top: 20vh;
     height: 40vh;
@@ -8,12 +9,13 @@
 
 #userOrders {
     margin-top: 20vh;
-    height: 40vh;
+    height: auto;
     text-align: center;
 }
 
 .order {
     display: inline-flex;
+    height: 100%;
 }
 
 .order>p {

@@ -20,6 +20,7 @@ $(document).ready(async function () {
   var category_info = await fetch(`/category${category}`).then((response) => {
     return response.json();
   });
+  $(document).attr("title", "OSF STORE - "+category_info.name);
   $(".active").html(category_info.name);
   $(".active").attr("id", category_info.id);
 });
