@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "nodemon -e js,ejs,css ./src/server.js --ignore __tests__",
-    "start": "nodemon -e js,ejs,css ./src/server.js",
+    "start": "node ./src/server.js",
     "test": "jest"
   },
   "devDependencies": {
