@@ -7,7 +7,6 @@ describe("Wishlist", () => {
         const response = await request(app)
         .post("/auth/signin")
         .send({
-            secretKey: process.env.API_KEY,
             email: "example-test-03433@gmail.com",
             password: "123"
         });
@@ -19,7 +18,6 @@ describe("Wishlist", () => {
         .post("/wishlist/addItem")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
 	        quantity:"1"
@@ -32,25 +30,23 @@ describe("Wishlist", () => {
         .post("/wishlist/addItem")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
 	        quantity:"1"
         });
         expect(response.body.error).toBe("This Item is already in your wishlist");
     });
-
+    
     it("should change quantity of a item in the wishlist", async () => {
         const response = await request(app)
         .post("/wishlist/changeItemQuantity")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
-	        quantity:"366"
+	        quantity: "88"
         });
-        expect(response.body.items[0].quantity).toBe(366);
+        expect(response.body.items[0].quantity).toBe(88);
     });
 
     it("should delete an item from the wishlist", async () => {
@@ -58,7 +54,6 @@ describe("Wishlist", () => {
         .delete("/wishlist/removeItem")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
         });

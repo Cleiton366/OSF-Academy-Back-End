@@ -1,6 +1,14 @@
+/**
+ * @type {Object} express
+ */
 const express = require("express");
-
+/**
+ * @type {Object} cartController
+ */
 const cartController = require("../controllers/CartController");
+/**
+ * @type {Object} router
+ */
 const router = express.Router();
 
 //get cart

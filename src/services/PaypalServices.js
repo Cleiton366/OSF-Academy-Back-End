@@ -1,7 +1,20 @@
 require("dotenv").config();
+/**
+ * @type {Object} paypal rest sdk
+ */
 const paypal = require("paypal-rest-sdk");
+/**
+ * @type {Object} node-fetch
+ */
 const fetch = require("node-fetch");
 
+/**
+ * 
+ * @param {Object[]} items array of items to be ordered
+ * @param {Number} amount total amount to be paid
+ * @param {String} token user token
+ * @returns {Promise<Object>} returns checkout information from PayPal API.
+ */
 async function checkOut(items, amount, token) {
   token = token.replace(/\"/g, "");
   paypal.configure({
@@ -60,6 +73,15 @@ async function checkOut(items, amount, token) {
   });
 }
 
+/**
+ * 
+ * @param {String} paymentId 
+ * @param {String} PayerID 
+ * @param {Number} amount total amount to be paid
+ * @param {Object[]} itemsArr array of items to be ordered
+ * @param {String} token user token
+ * @returns {Promise<Object>} returns order status from OSF API.
+ */
 async function checkOutExecute(paymentId, PayerID, amount, itemsArr, token) {
   const items = JSON.parse(itemsArr);
   var execute_payment_json = {
@@ -99,6 +121,12 @@ async function checkOutExecute(paymentId, PayerID, amount, itemsArr, token) {
   }
 }
 
+/**
+ * 
+ * @param {String} paymentId 
+ * @param {Object} execute_payment_json 
+ * @returns {Promise<Object>} returns order status from PayPal API.
+ */
 async function execute(paymentId, execute_payment_json) {
   return new Promise(function (resolve, reject) {
     paypal.payment.execute(

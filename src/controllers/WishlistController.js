@@ -1,11 +1,24 @@
+/**
+ * @type {Object} wishlist model
+ */
 const wishlist = require("../models/Wishlist");
 
+/**
+ * @param {Request} req
+ * @param {Response} res
+ * @return {Promise<Object>} returns an object with wishlist information.
+ */
 async function getWishlist(req, res) {
   const { token } = req.params;
   const result = await wishlist.getWishlist(token);
   return result;
 }
 
+/**
+ * @param {Request} req
+ * @param {Response} res
+ * @return {Promise<json>} returns a json with operation result.
+ */
 async function addItemWishlist(req, res) {
     const { productId, variantId, quantity } = req.body;
     const { token } = req.headers;
@@ -13,6 +26,11 @@ async function addItemWishlist(req, res) {
     return res.json(result);
 }
 
+/**
+ * @param {Request} req
+ * @param {Response} res
+ * @return {Promise<json>} returns a json with operation result.
+ */
 async function removeItemWishlist(req, res) {
     const { productId, variantId } = req.body;
     const { token } = req.headers;
@@ -20,6 +38,11 @@ async function removeItemWishlist(req, res) {
     return res.json(result);
 }
 
+/**
+ * @param {Request} req
+ * @param {Response} res
+ * @return {Promise<json>} returns a json with operation result.
+ */
 async function changeQuantityItem(req, res) {
     const {productId, variantId,quantity} = req.body;
     const { token } = req.headers;

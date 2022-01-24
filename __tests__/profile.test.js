@@ -8,7 +8,6 @@ describe("profile", () => {
         const response = await request(app)
         .post("/auth/signin")
         .send({
-            secretKey: process.env.API_KEY,
             email: "test366@gmail.com",
             password: "123"
         });

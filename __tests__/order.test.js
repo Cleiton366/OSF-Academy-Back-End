@@ -6,7 +6,6 @@ describe("Order", () => {
   var token = "";
   beforeAll(async () => {
     const response = await request(app).post("/auth/signin").send({
-      secretKey: process.env.API_KEY,
       email: "example-test-03433@gmail.com",
       password: "123",
     });

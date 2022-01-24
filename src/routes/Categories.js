@@ -1,6 +1,14 @@
+/**
+ * @type {Object} express
+ */
 const express = require("express");
-
+/**
+ * @type {Object} categoriesController
+ */
 const categoriesController = require("../controllers/CategoriesController");
+/**
+ * @type {Object} router
+ */
 const router = express.Router();
 
 //Get Category by ID

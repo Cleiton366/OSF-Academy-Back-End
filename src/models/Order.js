@@ -1,7 +1,18 @@
+/**
+ * @package node-fetch
+ */
 const fetch = require("node-fetch");
+/**
+ * @package Sentry
+ */
 const { Sentry } = require("../utils/sentry");
 require("dotenv").config();
 
+/**
+ *
+ * @param {String} token user token
+ * @returns {Promise<Object>} returns all orders from a user.
+ */
 async function getOrders(token) {
   try {
     const response = await fetch(
@@ -21,6 +32,14 @@ async function getOrders(token) {
   }
 }
 
+/**
+ *
+ * @param {String} address user address
+ * @param {String} paymentId payment id
+ * @param {Object[]} items array of items to be ordered
+ * @param {String} token user token
+ * @returns {Promise<Object>} returns order information.
+ */
 async function createOrder(address, paymentId, items, token) {
   token = token.replace(/\"/g, "");
   try {

@@ -7,7 +7,6 @@ describe("Cart", () => {
         const response = await request(app)
         .post("/auth/signin")
         .send({
-            secretKey: process.env.API_KEY,
             email: "test366@gmail.com",
             password: "123"
         });
@@ -19,7 +18,6 @@ describe("Cart", () => {
         .post("/cart/addItem")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
 	        quantity:"1"
@@ -32,7 +30,6 @@ describe("Cart", () => {
         .post("/cart/addItem")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
 	        quantity:"1"
@@ -45,10 +42,9 @@ describe("Cart", () => {
         .post("/cart/changeItemQuantity")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
-	        quantity: 366
+	        quantity: "366"
         });
         expect(response.body.items[0].quantity).toBe(366);
     });
@@ -58,7 +54,6 @@ describe("Cart", () => {
         .delete("/cart/removeItem")
         .set("token", token)
         .send({
-            secretKey: process.env.API_KEY,
             productId: "86736845",
 	        variantId: "883360544250",
         });

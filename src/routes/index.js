@@ -1,4 +1,10 @@
+/**
+ * @type {Object} express
+ */
 const express = require("express");
+/**
+ * @type {Object} router
+ */
 const router = express.Router();
 
 router.get("/", (req, res) => {

@@ -1,3 +1,6 @@
+/**
+ * @type {Object} Sentry
+ */
 const Sentry = require("@sentry/node");
 require("dotenv").config();
 

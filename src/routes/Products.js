@@ -1,6 +1,14 @@
+/**
+ * @type {Object} express
+ */
 const express = require("express");
-
+/**
+ * @type {Object} productsController
+ */
 const productsController = require("../controllers/ProductsController");
+/**
+ * @type {Object} router
+ */
 const router = express.Router();
 
 router.get("/product/:id", async function (req, res) {

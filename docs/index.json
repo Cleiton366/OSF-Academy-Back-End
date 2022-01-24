@@ -1,0 +1,4591 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/app.js",
+    "content": "const express = require(\"express\");\r\nrequire(\"dotenv\").config();\r\nconst { Sentry } = require(\"./utils/sentry\");\r\n\r\nconst app = express();\r\napp.use(Sentry.Handlers.requestHandler());\r\napp.use(Sentry.Handlers.errorHandler());\r\n\r\nconst authRouter = require(\"./routes/Auth\");\r\nconst cartRouter = require(\"./routes/Cart\");\r\nconst ordersRouter = require(\"./routes/Order\");\r\nconst productsRouter = require(\"./routes/Products\");\r\nconst wishlistRouter = require(\"./routes/Wishlist\");\r\nconst categoriesRouter = require(\"./routes/Categories\");\r\nconst indexRouter = require(\"./routes/index\");\r\nconst profileRouter = require(\"./routes/Profile\");\r\n\r\napp.use(express.json());\r\napp.use(express.static(\"public\"));\r\napp.set('view engine', 'ejs');\r\n\r\napp.use(authRouter);\r\napp.use(cartRouter);\r\napp.use(categoriesRouter);\r\napp.use(ordersRouter);\r\napp.use(productsRouter);\r\napp.use(wishlistRouter);\r\napp.use(indexRouter);\r\napp.use(profileRouter);\r\n\r\nmodule.exports = app;\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/app.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~Sentry",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "authRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~authRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "name": "cartRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~cartRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "variable",
+    "name": "ordersRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~ordersRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "productsRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~productsRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "name": "wishlistRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~wishlistRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "categoriesRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~categoriesRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "indexRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~indexRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "profileRouter",
+    "memberof": "src/app.js",
+    "static": true,
+    "longname": "src/app.js~profileRouter",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/app.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/controllers/AuthController.js",
+    "content": "/**\r\n * @type {Object} auth model\r\n */\r\nconst auth = require(\"../models/Auth\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with all user information.\r\n */\r\nasync function signUp(req, res) {\r\n  const { name, email, password } = req.body;\r\n  const result = await auth.signUp(name, email, password);\r\n  return res.json(result);\r\n}\r\n\r\n/**\r\n *\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with all user information.\r\n */\r\nasync function signIn(req, res) {\r\n  const { email, password } = req.body;\r\n  const result = await auth.signIn(email, password);\r\n  return res.json(result);\r\n}\r\n\r\nmodule.exports = { signUp, signIn };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/AuthController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "auth",
+    "memberof": "src/controllers/AuthController.js",
+    "static": true,
+    "longname": "src/controllers/AuthController.js~auth",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/AuthController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "signUp",
+    "memberof": "src/controllers/AuthController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/AuthController.js~signUp",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/AuthController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with all user information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "signIn",
+    "memberof": "src/controllers/AuthController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/AuthController.js~signIn",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/AuthController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with all user information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/controllers/CartController.js",
+    "content": "/**\r\n * @type {Object} cart model\r\n */\r\nconst cart = require(\"../models/Cart\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object>} returns an object with cart information.\r\n */\r\nasync function getCart(req, res) {\r\n  const { token } = req.params;\r\n  const result = await cart.getCart(token);\r\n  return result;\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with operation result.\r\n */\r\nasync function addItemCart(req, res) {\r\n  const { productId, variantId, quantity } = req.body;\r\n  const { token } = req.headers;\r\n  const result = await cart.addItemCart(productId, variantId, quantity, token);\r\n  return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with operation result.\r\n */\r\nasync function removeItemCart(req, res) {\r\n  const { productId, variantId } = req.body;\r\n  const { token } = req.headers;\r\n  const result = await cart.removeItemCart(productId, variantId, token);\r\n  return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with operation result.\r\n */\r\nasync function changeQuantityItem(req, res) {\r\n  const { productId, variantId, quantity } = req.body;\r\n  const { token } = req.headers;\r\n  const result = await cart.changeQuantityItem(\r\n    productId,\r\n    variantId,\r\n    quantity,\r\n    token\r\n  );\r\n  return res.json(result);\r\n}\r\n\r\nmodule.exports = { getCart, addItemCart, removeItemCart, changeQuantityItem };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/CartController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "cart",
+    "memberof": "src/controllers/CartController.js",
+    "static": true,
+    "longname": "src/controllers/CartController.js~cart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CartController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "function",
+    "name": "getCart",
+    "memberof": "src/controllers/CartController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CartController.js~getCart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CartController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with cart information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "addItemCart",
+    "memberof": "src/controllers/CartController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CartController.js~addItemCart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CartController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with operation result."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "removeItemCart",
+    "memberof": "src/controllers/CartController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CartController.js~removeItemCart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CartController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 34,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with operation result."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "changeQuantityItem",
+    "memberof": "src/controllers/CartController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CartController.js~changeQuantityItem",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CartController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 46,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with operation result."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/controllers/CategoriesController.js",
+    "content": "/**\r\n * @type {Object} categories model\r\n */\r\nconst categories = require(\"../models/Categories\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with a certain category.\r\n */\r\nasync function getCategoryById(req, res) {\r\n  const { id } = req.params;\r\n  const result = await categories.getCategoryById(id);\r\n  return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with a certain category according to their parent's id.\r\n */\r\nasync function getCategoryByParentId(req, res) {\r\n  const { id } = req.params;\r\n  const result = await categories.getCategoryByParentId(id);\r\n  return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with all categories.\r\n */\r\nasync function getAllCategories(req, res) {\r\n  const result = await categories.getAllCategories();\r\n  return res.json(result);\r\n}\r\n\r\nmodule.exports = { getCategoryById, getCategoryByParentId, getAllCategories };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/CategoriesController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "variable",
+    "name": "categories",
+    "memberof": "src/controllers/CategoriesController.js",
+    "static": true,
+    "longname": "src/controllers/CategoriesController.js~categories",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CategoriesController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "getCategoryById",
+    "memberof": "src/controllers/CategoriesController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CategoriesController.js~getCategoryById",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CategoriesController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with a certain category."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "getCategoryByParentId",
+    "memberof": "src/controllers/CategoriesController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CategoriesController.js~getCategoryByParentId",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CategoriesController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with a certain category according to their parent's id."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "getAllCategories",
+    "memberof": "src/controllers/CategoriesController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/CategoriesController.js~getAllCategories",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/CategoriesController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 33,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with all categories."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "file",
+    "name": "src/controllers/OrderController.js",
+    "content": "/**\r\n * @type {Object} order model\r\n */\r\nconst order = require(\"../models/Order\");\r\n/**\r\n * @type {Object} paypalServices\r\n*/\r\nconst paypalServices = require(\"../services/PaypalServices\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with all orders from a user.\r\n */\r\nasync function getOrders(req, res) {\r\n  const { token } = req.headers;\r\n  const result = await order.getOrders(token);\r\n  return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with all information of an order just created.\r\n */\r\nasync function createOrder(req, res) {\r\n    const { address, paymentId, items } = req.body;\r\n    const { token } = req.headers;\r\n    const result = await order.createOrder(address, paymentId, items, token);\r\n    return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {res.redirect} will redirect the user to paypal to make the purchase.\r\n */\r\nasync function checkOut(req, res) {\r\n  const { items, amount, token} = req.query;\r\n  const itemsArr = JSON.parse(items);\r\n  const result = await paypalServices.checkOut(itemsArr, amount, token);\r\n  return res.redirect(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object>} Paypal will return an object with a purchase information.\r\n */\r\nasync function checkOutExecute(req, res) {\r\n  const { paymentId, PayerID } = req.query;\r\n  const { amount, items, token } = req.params\r\n  const result = await paypalServices.checkOutExecute(paymentId, PayerID, amount, items, token);\r\n  return result;\r\n}\r\n\r\nmodule.exports = { getOrders, createOrder, checkOut, checkOutExecute };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/OrderController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 76,
+    "kind": "variable",
+    "name": "order",
+    "memberof": "src/controllers/OrderController.js",
+    "static": true,
+    "longname": "src/controllers/OrderController.js~order",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/OrderController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "paypalServices",
+    "memberof": "src/controllers/OrderController.js",
+    "static": true,
+    "longname": "src/controllers/OrderController.js~paypalServices",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/OrderController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "getOrders",
+    "memberof": "src/controllers/OrderController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/OrderController.js~getOrders",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/OrderController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with all orders from a user."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "createOrder",
+    "memberof": "src/controllers/OrderController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/OrderController.js~createOrder",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/OrderController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with all information of an order just created."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "checkOut",
+    "memberof": "src/controllers/OrderController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/OrderController.js~checkOut",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/OrderController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 38,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "res.redirect"
+      ],
+      "spread": false,
+      "description": "will redirect the user to paypal to make the purchase."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "checkOutExecute",
+    "memberof": "src/controllers/OrderController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/OrderController.js~checkOutExecute",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/OrderController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 50,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "Paypal will return an object with a purchase information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/controllers/ProductsController.js",
+    "content": "/**\r\n * @type {Object} products model\r\n */\r\nconst products = require(\"../models/Products\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object[]>} returns an array containing all information of a product.\r\n */\r\nasync function searchProductsById(req, res) {\r\n  const { id } = req.params;\r\n  const result = await products.searchProductsById(id);\r\n  return result;\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object[]>} returns an array containing all all products from a category.\r\n */\r\nasync function searchProductsByCategory(req, res) {\r\n  const { category } = req.params;\r\n  const result = await products.searchProductsByCategory(category);\r\n  return result;\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object[]>} returns an array containing all all products according to a key word from the search.\r\n */\r\nasync function searchProducts(req, res) {\r\n  const { key_word } = req.params;\r\n  const result = await products.searchProducts(key_word);\r\n  return result;\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json containg information of a product.\r\n */\r\nasync function getProduct(req, res) {\r\n  const { id } = req.params;\r\n  const result = await products.searchProductsById(id);\r\n  return res.json(result);\r\n}\r\n\r\nmodule.exports = {\r\n  searchProductsById,\r\n  searchProductsByCategory,\r\n  searchProducts,\r\n  getProduct,\r\n};\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/ProductsController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "products",
+    "memberof": "src/controllers/ProductsController.js",
+    "static": true,
+    "longname": "src/controllers/ProductsController.js~products",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProductsController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "searchProductsById",
+    "memberof": "src/controllers/ProductsController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/ProductsController.js~searchProductsById",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProductsController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns an array containing all information of a product."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "searchProductsByCategory",
+    "memberof": "src/controllers/ProductsController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/ProductsController.js~searchProductsByCategory",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProductsController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns an array containing all all products from a category."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "searchProducts",
+    "memberof": "src/controllers/ProductsController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/ProductsController.js~searchProducts",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProductsController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 33,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns an array containing all all products according to a key word from the search."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "getProduct",
+    "memberof": "src/controllers/ProductsController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/ProductsController.js~getProduct",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProductsController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 44,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json containg information of a product."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/controllers/ProfileController.js",
+    "content": "/**\r\n * @type {Object} profile model\r\n */\r\nconst profile = require(\"../models/Profile\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object>} returns an object with user information.\r\n */\r\nasync function getProfileInfo(req, res) {\r\n    const { token } = req.params;\r\n    const result  = await profile.getProfileInfo(token);\r\n    return result;\r\n}\r\n\r\nmodule.exports = { getProfileInfo };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/ProfileController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "profile",
+    "memberof": "src/controllers/ProfileController.js",
+    "static": true,
+    "longname": "src/controllers/ProfileController.js~profile",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProfileController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "getProfileInfo",
+    "memberof": "src/controllers/ProfileController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/ProfileController.js~getProfileInfo",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/ProfileController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with user information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 91,
+    "kind": "file",
+    "name": "src/controllers/WishlistController.js",
+    "content": "/**\r\n * @type {Object} wishlist model\r\n */\r\nconst wishlist = require(\"../models/Wishlist\");\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<Object>} returns an object with wishlist information.\r\n */\r\nasync function getWishlist(req, res) {\r\n  const { token } = req.params;\r\n  const result = await wishlist.getWishlist(token);\r\n  return result;\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with operation result.\r\n */\r\nasync function addItemWishlist(req, res) {\r\n    const { productId, variantId, quantity } = req.body;\r\n    const { token } = req.headers;\r\n    const result = await wishlist.addItemWishlist(productId, variantId, quantity, token);\r\n    return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with operation result.\r\n */\r\nasync function removeItemWishlist(req, res) {\r\n    const { productId, variantId } = req.body;\r\n    const { token } = req.headers;\r\n    const result = await wishlist.removeItemWishlist(productId, variantId, token);\r\n    return res.json(result);\r\n}\r\n\r\n/**\r\n * @param {Request} req\r\n * @param {Response} res\r\n * @return {Promise<json>} returns a json with operation result.\r\n */\r\nasync function changeQuantityItem(req, res) {\r\n    const {productId, variantId,quantity} = req.body;\r\n    const { token } = req.headers;\r\n    const result = await wishlist.changeQuantityItem(productId, variantId, quantity, token);\r\n    return res.json(result); \r\n}\r\n\r\nmodule.exports = {getWishlist, addItemWishlist, removeItemWishlist, changeQuantityItem};\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/controllers/WishlistController.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 92,
+    "kind": "variable",
+    "name": "wishlist",
+    "memberof": "src/controllers/WishlistController.js",
+    "static": true,
+    "longname": "src/controllers/WishlistController.js~wishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/WishlistController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "getWishlist",
+    "memberof": "src/controllers/WishlistController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/WishlistController.js~getWishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/WishlistController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with wishlist information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "addItemWishlist",
+    "memberof": "src/controllers/WishlistController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/WishlistController.js~addItemWishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/WishlistController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with operation result."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "removeItemWishlist",
+    "memberof": "src/controllers/WishlistController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/WishlistController.js~removeItemWishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/WishlistController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 34,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with operation result."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "changeQuantityItem",
+    "memberof": "src/controllers/WishlistController.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/controllers/WishlistController.js~changeQuantityItem",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/controllers/WishlistController.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 46,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Request"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "req",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Response"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "res",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<json>"
+      ],
+      "spread": false,
+      "description": "returns a json with operation result."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/models/Auth.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\nconst fetch = require(\"node-fetch\");\r\n/**\r\n * @package Sentry\r\n */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n * @param {String} name user name\r\n * @param {String} email user email\r\n * @param {String} password user password\r\n * @returns {Promise<Object>} returns an object with all user information\r\n */\r\nasync function signUp(name, email, password) {\r\n  try {\r\n    const response = await fetch(`${process.env.OSF_API_URL}/auth/signup`, {\r\n      method: \"POST\",\r\n      headers: { \"Content-Type\": \"application/json\" },\r\n      body: JSON.stringify({\r\n        secretKey: process.env.API_KEY,\r\n        name: name,\r\n        email: email,\r\n        password: password,\r\n      }),\r\n    });\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * @param {String} email user email\r\n * @param {String} password user password\r\n * @returns {Promise<Object>} returns an object with all user information\r\n */\r\nasync function signIn(email, password) {\r\n  try {\r\n    const response = await fetch(`${process.env.OSF_API_URL}/auth/signin`, {\r\n      method: \"POST\",\r\n      headers: { \"Content-Type\": \"application/json\" },\r\n      body: JSON.stringify({\r\n        secretKey: process.env.API_KEY,\r\n        email: email,\r\n        password: password,\r\n      }),\r\n    });\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\nmodule.exports = { signUp, signIn };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Auth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Auth.js",
+    "static": true,
+    "longname": "src/models/Auth.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Auth.js",
+    "static": true,
+    "longname": "src/models/Auth.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "signUp",
+    "memberof": "src/models/Auth.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Auth.js~signUp",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 17,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with all user information"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "user name"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": "user email"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "password",
+        "description": "user password"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with all user information"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "signIn",
+    "memberof": "src/models/Auth.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Auth.js~signIn",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 41,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with all user information"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": "user email"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "password",
+        "description": "user password"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with all user information"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "file",
+    "name": "src/models/Cart.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\nconst fetch = require(\"node-fetch\");\r\n/**\r\n * @package Sentry\r\n */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n * @param {String} token user token\r\n * @returns {Promise<Object[]>} returns user's cart\r\n */\r\nasync function getCart(token) {\r\n  token = token.replace(/\\\"/g, \"\");\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/cart?secretKey=${process.env.API_KEY}`,\r\n      {\r\n        method: \"GET\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * @param {String} productId\r\n * @param {String} variantId \r\n * @param {Number} quantity \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns an object with the status of the operation\r\n */\r\nasync function addItemCart(productId, variantId, quantity, token) {\r\n  try {\r\n    const response = await fetch(`${process.env.OSF_API_URL}/cart/addItem`, {\r\n      method: \"POST\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n        Authorization: `Bearer ${token}`,\r\n      },\r\n      body: JSON.stringify({\r\n        secretKey: process.env.API_KEY,\r\n        productId: productId,\r\n        variantId: variantId,\r\n        quantity: quantity,\r\n      }),\r\n    });\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * @param {String} productId \r\n * @param {String} variantId \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns an object with the status of the operation\r\n */\r\nasync function removeItemCart(productId, variantId, token) {\r\n  try {\r\n    await fetch(`${process.env.OSF_API_URL}/cart/removeItem`, {\r\n      method: \"DELETE\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n        Authorization: `Bearer ${token}`,\r\n      },\r\n      body: JSON.stringify({\r\n        secretKey: process.env.API_KEY,\r\n        productId: productId,\r\n        variantId: variantId,\r\n      }),\r\n    });\r\n    return {\r\n      status: \"Item removed from the cart\",\r\n    };\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * @param {String} productId \r\n * @param {String} variantId \r\n * @param {Number} quantity \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns an object with the status of the operation\r\n */\r\nasync function changeQuantityItem(productId, variantId, quantity, token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/cart/changeItemQuantity`,\r\n      {\r\n        method: \"POST\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n        body: JSON.stringify({\r\n          secretKey: process.env.API_KEY,\r\n          productId: productId,\r\n          variantId: variantId,\r\n          quantity: quantity,\r\n        }),\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\nmodule.exports = { getCart, addItemCart, removeItemCart, changeQuantityItem };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Cart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 103,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Cart.js",
+    "static": true,
+    "longname": "src/models/Cart.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Cart.js",
+    "static": true,
+    "longname": "src/models/Cart.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "function",
+    "name": "getCart",
+    "memberof": "src/models/Cart.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Cart.js~getCart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 15,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns user's cart"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns user's cart"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "name": "addItemCart",
+    "memberof": "src/models/Cart.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Cart.js~addItemCart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 42,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with the status of the operation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "productId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "variantId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with the status of the operation"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "name": "removeItemCart",
+    "memberof": "src/models/Cart.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Cart.js~removeItemCart",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 70,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with the status of the operation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "productId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "variantId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with the status of the operation"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "changeQuantityItem",
+    "memberof": "src/models/Cart.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Cart.js~changeQuantityItem",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 99,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with the status of the operation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "productId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "variantId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with the status of the operation"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "file",
+    "name": "src/models/Categories.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\n const fetch = require(\"node-fetch\");\r\n /**\r\n  * @package Sentry\r\n  */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n * \r\n * @param {String} id category Id\r\n * @returns {Promise<Object>} returns category information.\r\n */\r\nasync function getCategoryById(id) {\r\n    try {\r\n        const response = await fetch(`${process.env.OSF_API_URL}/categories/${id}?secretKey=${process.env.API_KEY}`);\r\n        const data = await response.json();\r\n        return data;\r\n    }catch(err) {\r\n        Sentry.captureException(err);\r\n    }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} id ParentId\r\n * @returns {Promise<Object[]>} returns all categories according to theirs parentId.\r\n */\r\nasync function getCategoryByParentId(id) {\r\n    try {\r\n        const response = await fetch(`${process.env.OSF_API_URL}/categories/parent/${id}?secretKey=${process.env.API_KEY}`);\r\n        const data = await response.json();\r\n        return data;\r\n    }catch(err) {\r\n        Sentry.captureException(err);;\r\n    }\r\n}\r\n\r\n/**\r\n * \r\n * @returns {Promise<Object[]>} returns all categories.\r\n */\r\nasync function getAllCategories() {\r\n    try {\r\n        const response = await fetch(`https://osf-digital-backend-academy.herokuapp.com`+\r\n        `/api/categories?secretKey=${process.env.API_KEY}`);\r\n        const data = await response.json();\r\n        return data;\r\n    }catch(err) {\r\n        console.log(err);\r\n    }\r\n}\r\n\r\nmodule.exports = { getCategoryById, getCategoryByParentId, getAllCategories };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Categories.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 110,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Categories.js",
+    "static": true,
+    "longname": "src/models/Categories.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Categories.js",
+    "static": true,
+    "longname": "src/models/Categories.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "function",
+    "name": "getCategoryById",
+    "memberof": "src/models/Categories.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Categories.js~getCategoryById",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns category information."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": "category Id"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns category information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 113,
+    "kind": "function",
+    "name": "getCategoryByParentId",
+    "memberof": "src/models/Categories.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Categories.js~getCategoryByParentId",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 31,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns all categories according to theirs parentId."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": "ParentId"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns all categories according to theirs parentId."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "getAllCategories",
+    "memberof": "src/models/Categories.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Categories.js~getAllCategories",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 45,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns all categories."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns all categories."
+    },
+    "params": [],
+    "ignore": true
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "name": "src/models/Order.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\nconst fetch = require(\"node-fetch\");\r\n/**\r\n * @package Sentry\r\n */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n *\r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns all orders from a user.\r\n */\r\nasync function getOrders(token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/orders?secretKey=${process.env.API_KEY}`,\r\n      {\r\n        method: \"GET\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n *\r\n * @param {String} address user address\r\n * @param {String} paymentId payment id\r\n * @param {Object[]} items array of items to be ordered\r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns order information.\r\n */\r\nasync function createOrder(address, paymentId, items, token) {\r\n  token = token.replace(/\\\"/g, \"\");\r\n  try {\r\n    const response = await fetch(`${process.env.OSF_API_URL}/orders`, {\r\n      method: \"POST\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n        Authorization: `Bearer ${token}`,\r\n      },\r\n      body: JSON.stringify({\r\n        secretKey: process.env.API_KEY,\r\n        address: address,\r\n        paymentId: paymentId,\r\n        items: items,\r\n      }),\r\n    });\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\nmodule.exports = { getOrders, createOrder };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Order.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 116,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Order.js",
+    "static": true,
+    "longname": "src/models/Order.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Order.js",
+    "static": true,
+    "longname": "src/models/Order.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "getOrders",
+    "memberof": "src/models/Order.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Order.js~getOrders",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns all orders from a user."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns all orders from a user."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "createOrder",
+    "memberof": "src/models/Order.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Order.js~createOrder",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 43,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns order information."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "address",
+        "description": "user address"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "paymentId",
+        "description": "payment id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "items",
+        "description": "array of items to be ordered"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns order information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 120,
+    "kind": "file",
+    "name": "src/models/Products.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\n const fetch = require(\"node-fetch\");\r\n /**\r\n  * @package Sentry\r\n  */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n * \r\n * @param {String} id product Id\r\n * @returns {Promise<Object>} returns product information.\r\n */\r\nasync function searchProductsById(id) {\r\n    try {\r\n        const response = await fetch(`${process.env.OSF_API_URL}/products/product_search?id=${id}&secretKey=${process.env.API_KEY}`);\r\n        const data = await response.json();\r\n        return data;\r\n    }catch(err) {\r\n        Sentry.captureException(err);\r\n    }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} category category Id\r\n * @returns {Promise<Object[]>} returns all products according to their category.\r\n */\r\nasync function searchProductsByCategory(category) {\r\n    try {\r\n        const response = await fetch(`${process.env.OSF_API_URL}/products/product_search?primary_category_id=${category}&secretKey=${process.env.API_KEY}`);\r\n        const data = await response.json();\r\n        return data;\r\n    }catch(err) {\r\n        Sentry.captureException(err);\r\n    }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} key_word \r\n * @returns {Promise<Object[]>} returns all products according to key_word.\r\n */\r\nasync function searchProducts(key_word) {\r\n    try {\r\n        const response = await fetch(`${process.env.OSF_API_URL}/products/product_search?${key_word}&secretKey=${process.env.API_KEY}`);\r\n        const data = await response.json();\r\n        return data;\r\n    }catch(err) {\r\n        Sentry.captureException(err);\r\n    }\r\n}\r\n\r\n\r\nmodule.exports = { searchProductsById, searchProductsByCategory, searchProducts };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Products.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 121,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Products.js",
+    "static": true,
+    "longname": "src/models/Products.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Products.js",
+    "static": true,
+    "longname": "src/models/Products.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "function",
+    "name": "searchProductsById",
+    "memberof": "src/models/Products.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Products.js~searchProductsById",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns product information."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "id",
+        "description": "product Id"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns product information."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "searchProductsByCategory",
+    "memberof": "src/models/Products.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Products.js~searchProductsByCategory",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 31,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns all products according to their category."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "category",
+        "description": "category Id"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns all products according to their category."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 125,
+    "kind": "function",
+    "name": "searchProducts",
+    "memberof": "src/models/Products.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Products.js~searchProducts",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 46,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns all products according to key_word."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "key_word",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns all products according to key_word."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 126,
+    "kind": "file",
+    "name": "src/models/Profile.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\nconst fetch = require(\"node-fetch\");\r\n/**\r\n * @package Sentry\r\n */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n * \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns cartCount, wishlistCount and Orders[].\r\n */\r\nasync function getProfileInfo(token) {\r\n  token = token.replace(/\\\"/g, \"\");\r\n  const cartCount = await getCartCount(token);\r\n  const wishlistCount = await getWishlistCount(token);\r\n  const orders = await getOrders(token);\r\n\r\n  const profileInfo = {\r\n    cartCount: cartCount,\r\n    wishlistCount: wishlistCount,\r\n    orders: orders,\r\n  };\r\n\r\n  return profileInfo;\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} token user token\r\n * @returns {Promise<Number>} returns how many items there's on user Cart.\r\n */\r\nasync function getCartCount(token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/cart?secretKey=${process.env.API_KEY}`,\r\n      {\r\n        method: \"GET\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    if (!data.error) {\r\n      const cartCount = data.items.length;\r\n      return cartCount;\r\n    } else return 0;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} token user token\r\n * @returns {Promise<Number>} returns how many items there's on user Wishlist.\r\n */\r\nasync function getWishlistCount(token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/wishlist?secretKey=${process.env.API_KEY}`,\r\n      {\r\n        method: \"GET\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    if (!data.error) {\r\n      const wishlistCount = data.items.length;\r\n      return wishlistCount;\r\n    } else return 0;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} token user token\r\n * @returns {Promise<Object[]>} returns all orders from a user.\r\n */\r\nasync function getOrders(token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/orders?secretKey=${process.env.API_KEY}`,\r\n      {\r\n        method: \"GET\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\nmodule.exports = { getProfileInfo };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Profile.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 127,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Profile.js",
+    "static": true,
+    "longname": "src/models/Profile.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Profile.js",
+    "static": true,
+    "longname": "src/models/Profile.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "function",
+    "name": "getProfileInfo",
+    "memberof": "src/models/Profile.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Profile.js~getProfileInfo",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns cartCount, wishlistCount and Orders[]."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns cartCount, wishlistCount and Orders[]."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 130,
+    "kind": "function",
+    "name": "getCartCount",
+    "memberof": "src/models/Profile.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Profile.js~getCartCount",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 36,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Number>} returns how many items there's on user Cart."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Number>"
+      ],
+      "spread": false,
+      "description": "returns how many items there's on user Cart."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 131,
+    "kind": "function",
+    "name": "getWishlistCount",
+    "memberof": "src/models/Profile.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Profile.js~getWishlistCount",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 63,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Number>} returns how many items there's on user Wishlist."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Number>"
+      ],
+      "spread": false,
+      "description": "returns how many items there's on user Wishlist."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 132,
+    "kind": "function",
+    "name": "getOrders",
+    "memberof": "src/models/Profile.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Profile.js~getOrders",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 90,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns all orders from a user."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns all orders from a user."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 133,
+    "kind": "file",
+    "name": "src/models/Wishlist.js",
+    "content": "/**\r\n * @package node-fetch\r\n */\r\nconst fetch = require(\"node-fetch\");\r\n/**\r\n * @package Sentry\r\n */\r\nconst { Sentry } = require(\"../utils/sentry\");\r\nrequire(\"dotenv\").config();\r\n\r\n/**\r\n * \r\n * @param {String} token user token\r\n * @returns {Promise<Object[]>} returns user's wishlist.\r\n */\r\nasync function getWishlist(token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/wishlist?secretKey=${process.env.API_KEY}`,\r\n      {\r\n        method: \"GET\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    console.log(err);\r\n  }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} productId \r\n * @param {String} variantId \r\n * @param {Number} quantity \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns an object with the status of the operation\r\n */\r\nasync function addItemWishlist(productId, variantId, quantity, token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/wishlist/addItem`,\r\n      {\r\n        method: \"POST\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n        body: JSON.stringify({\r\n          secretKey: process.env.API_KEY,\r\n          productId: productId,\r\n          variantId: variantId,\r\n          quantity: quantity,\r\n        }),\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * @param {String} productId \r\n * @param {String} variantId \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns an object with the status of the operation\r\n */\r\nasync function removeItemWishlist(productId, variantId, token) {\r\n  try {\r\n    await fetch(`${process.env.OSF_API_URL}/wishlist/removeItem`, {\r\n      method: \"DELETE\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n        Authorization: `Bearer ${token}`,\r\n      },\r\n      body: JSON.stringify({\r\n        secretKey: process.env.API_KEY,\r\n        productId: productId,\r\n        variantId: variantId,\r\n      }),\r\n    });\r\n\r\n    return {\r\n      status: \"Item removed from the wishlist\",\r\n    };\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\n/**\r\n * @param {String} productId \r\n * @param {String} variantId \r\n * @param {Number} quantity \r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns an object with the status of the operation\r\n */\r\nasync function changeQuantityItem(productId, variantId, quantity, token) {\r\n  try {\r\n    const response = await fetch(\r\n      `${process.env.OSF_API_URL}/wishlist/changeItemQuantity`,\r\n      {\r\n        method: \"POST\",\r\n        headers: {\r\n          \"Content-Type\": \"application/json\",\r\n          Authorization: `Bearer ${token}`,\r\n        },\r\n        body: JSON.stringify({\r\n          secretKey: process.env.API_KEY,\r\n          productId: productId,\r\n          variantId: variantId,\r\n          quantity: quantity,\r\n        }),\r\n      }\r\n    );\r\n    const data = await response.json();\r\n    return data;\r\n  } catch (err) {\r\n    Sentry.captureException(err);\r\n  }\r\n}\r\n\r\nmodule.exports = {\r\n  getWishlist,\r\n  addItemWishlist,\r\n  removeItemWishlist,\r\n  changeQuantityItem,\r\n};\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/models/Wishlist.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 134,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/models/Wishlist.js",
+    "static": true,
+    "longname": "src/models/Wishlist.js~fetch",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/models/Wishlist.js",
+    "static": true,
+    "longname": "src/models/Wishlist.js~Sentry",
+    "access": "package",
+    "export": false,
+    "importPath": "./src/models/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 136,
+    "kind": "function",
+    "name": "getWishlist",
+    "memberof": "src/models/Wishlist.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Wishlist.js~getWishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object[]>} returns user's wishlist."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object[]>"
+      ],
+      "spread": false,
+      "description": "returns user's wishlist."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 137,
+    "kind": "function",
+    "name": "addItemWishlist",
+    "memberof": "src/models/Wishlist.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Wishlist.js~addItemWishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 43,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with the status of the operation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "productId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "variantId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with the status of the operation"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 138,
+    "kind": "function",
+    "name": "removeItemWishlist",
+    "memberof": "src/models/Wishlist.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Wishlist.js~removeItemWishlist",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 74,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with the status of the operation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "productId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "variantId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with the status of the operation"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 139,
+    "kind": "function",
+    "name": "changeQuantityItem",
+    "memberof": "src/models/Wishlist.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/models/Wishlist.js~changeQuantityItem",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/models/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 104,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns an object with the status of the operation"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "productId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "variantId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "quantity",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns an object with the status of the operation"
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 140,
+    "kind": "file",
+    "name": "src/routes/Auth.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} authController\r\n */\r\nconst authController = require(\"../controllers/AuthController\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\nrouter.post(\"/auth/signup\", authController.signUp);\r\n\r\nrouter.post(\"/auth/signin\", authController.signIn);\r\n\r\nmodule.exports = router;",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Auth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 141,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Auth.js",
+    "static": true,
+    "longname": "src/routes/Auth.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 142,
+    "kind": "variable",
+    "name": "authController",
+    "memberof": "src/routes/Auth.js",
+    "static": true,
+    "longname": "src/routes/Auth.js~authController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 143,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Auth.js",
+    "static": true,
+    "longname": "src/routes/Auth.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Auth.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 144,
+    "kind": "file",
+    "name": "src/routes/Cart.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} cartController\r\n */\r\nconst cartController = require(\"../controllers/CartController\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\n//get cart\r\nrouter.get(\"/cart/:token\", async function(req, res) {\r\n    const cart = await cartController.getCart(req, res);\r\n    res.render(\"../public/views/cart.ejs\", {cart});\r\n});\r\n\r\n//add item to cart\r\nrouter.post(\"/cart/addItem\", cartController.addItemCart);\r\n\r\n//remove item from cart\r\nrouter.delete(\"/cart/removeItem\", cartController.removeItemCart);\r\n\r\n//change item quantity\r\nrouter.post(\"/cart/changeItemQuantity\", cartController.changeQuantityItem);\r\n\r\nmodule.exports = router;\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Cart.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 145,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Cart.js",
+    "static": true,
+    "longname": "src/routes/Cart.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 146,
+    "kind": "variable",
+    "name": "cartController",
+    "memberof": "src/routes/Cart.js",
+    "static": true,
+    "longname": "src/routes/Cart.js~cartController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 147,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Cart.js",
+    "static": true,
+    "longname": "src/routes/Cart.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Cart.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 148,
+    "kind": "file",
+    "name": "src/routes/Categories.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} categoriesController\r\n */\r\nconst categoriesController = require(\"../controllers/CategoriesController\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\n//Get Category by ID\r\nrouter.get(\"/category/:id\", categoriesController.getCategoryById);\r\n\r\n//Get Categories by Parent ID\r\nrouter.get(\"/category/parent/:id\", categoriesController.getCategoryByParentId);\r\n\r\n//​Get All Categories\r\nrouter.get(\"/all_categories\", categoriesController.getAllCategories);\r\n\r\nmodule.exports = router;",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Categories.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 149,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Categories.js",
+    "static": true,
+    "longname": "src/routes/Categories.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 150,
+    "kind": "variable",
+    "name": "categoriesController",
+    "memberof": "src/routes/Categories.js",
+    "static": true,
+    "longname": "src/routes/Categories.js~categoriesController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 151,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Categories.js",
+    "static": true,
+    "longname": "src/routes/Categories.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Categories.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "name": "src/routes/index.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\nrouter.get(\"/\", (req, res) => {\r\n  res.render(\"../public/views/index.ejs\");\r\n});\r\n\r\nrouter.get(\"/signin\", (req, res) => {\r\n  res.render(\"../public/views/signin.ejs\");\r\n});\r\n\r\nrouter.get(\"/signup\", (req, res) => {\r\n  res.render(\"../public/views/signup.ejs\");\r\n});\r\n\r\nmodule.exports = router;\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 153,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/index.js",
+    "static": true,
+    "longname": "src/routes/index.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/index.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 154,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/index.js",
+    "static": true,
+    "longname": "src/routes/index.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/index.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 155,
+    "kind": "file",
+    "name": "src/routes/Order.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} orderController\r\n */\r\nconst orderController = require(\"../controllers/OrderController\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\n//​Get Orders​\r\nrouter.get(\"/orders\", orderController.getOrders);\r\n//​Create Order\r\nrouter.post(\"/orders/create\", orderController.createOrder);\r\n\r\nrouter.get(\"/checkout\", orderController.checkOut);\r\n\r\nrouter.get(\"/checkoutExecute/:amount/:items/:token\", async function(req, res){\r\n    const result = await orderController.checkOutExecute(req, res);\r\n    if(result.error){\r\n        res.send(result.error);\r\n    }else res.redirect(\"/profile/\"+result);\r\n});\r\n\r\nmodule.exports = router;",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Order.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 156,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Order.js",
+    "static": true,
+    "longname": "src/routes/Order.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 157,
+    "kind": "variable",
+    "name": "orderController",
+    "memberof": "src/routes/Order.js",
+    "static": true,
+    "longname": "src/routes/Order.js~orderController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 158,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Order.js",
+    "static": true,
+    "longname": "src/routes/Order.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Order.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 159,
+    "kind": "file",
+    "name": "src/routes/Products.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} productsController\r\n */\r\nconst productsController = require(\"../controllers/ProductsController\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\nrouter.get(\"/product/:id\", async function (req, res) {\r\n    const product =  await productsController.searchProductsById(req, res);\r\n    res.render(\"../public/views/product.ejs\", {product});\r\n});\r\n\r\nrouter.get(\"/products_on_category/:category\", async function(req, res){\r\n    const products = await productsController.searchProductsByCategory(req, res);\r\n    res.render(\"../public/views/products_on_category.ejs\", {products});\r\n});\r\n\r\nrouter.get(\"/search_result/:key_word\", async function(req, res){\r\n    const products = await productsController.searchProducts(req, res);\r\n    res.render(\"../public/views/products_searched.ejs\", {products});\r\n});\r\n\r\nrouter.get(\"/getProduct/:id\", productsController.getProduct);\r\n\r\nmodule.exports = router;",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Products.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 160,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Products.js",
+    "static": true,
+    "longname": "src/routes/Products.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 161,
+    "kind": "variable",
+    "name": "productsController",
+    "memberof": "src/routes/Products.js",
+    "static": true,
+    "longname": "src/routes/Products.js~productsController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 162,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Products.js",
+    "static": true,
+    "longname": "src/routes/Products.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Products.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 163,
+    "kind": "file",
+    "name": "src/routes/Profile.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n/**\r\n * @type {Object} profileController\r\n */\r\nconst profileController = require(\"../controllers/ProfileController\");\r\n\r\nrouter.get(\"/profile/:token\", async function(req, res) {\r\n    const profileInfo = await profileController.getProfileInfo(req, res);\r\n    res.render(\"../public/views/profile.ejs\", {profileInfo});\r\n});\r\n\r\nmodule.exports = router;",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Profile.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 164,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Profile.js",
+    "static": true,
+    "longname": "src/routes/Profile.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 165,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Profile.js",
+    "static": true,
+    "longname": "src/routes/Profile.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 166,
+    "kind": "variable",
+    "name": "profileController",
+    "memberof": "src/routes/Profile.js",
+    "static": true,
+    "longname": "src/routes/Profile.js~profileController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Profile.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 167,
+    "kind": "file",
+    "name": "src/routes/Wishlist.js",
+    "content": "/**\r\n * @type {Object} express\r\n */\r\nconst express = require(\"express\");\r\n/**\r\n * @type {Object} wishlistController\r\n */\r\nconst wishlistController = require(\"../controllers/WishlistController\");\r\n/**\r\n * @type {Object} router\r\n */\r\nconst router = express.Router();\r\n\r\n//​Get Wishlist\r\nrouter.get(\"/wishlist/:token\", async function(req, res) {\r\n    const wishlist = await wishlistController.getWishlist(req, res);\r\n    res.render(\"../public/views/wishlist.ejs\", {wishlist});\r\n});\r\n//​​Add Item to Wishlist\r\nrouter.post(\"/wishlist/addItem\", wishlistController.addItemWishlist);\r\n//Remove Item From Wishlist\r\nrouter.delete(\"/wishlist/removeItem\", wishlistController.removeItemWishlist);\r\n//​Change Quantity of Item \r\nrouter.post(\"/wishlist/changeItemQuantity\", wishlistController.changeQuantityItem);\r\n\r\nmodule.exports = router;",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/routes/Wishlist.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 168,
+    "kind": "variable",
+    "name": "express",
+    "memberof": "src/routes/Wishlist.js",
+    "static": true,
+    "longname": "src/routes/Wishlist.js~express",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 169,
+    "kind": "variable",
+    "name": "wishlistController",
+    "memberof": "src/routes/Wishlist.js",
+    "static": true,
+    "longname": "src/routes/Wishlist.js~wishlistController",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 170,
+    "kind": "variable",
+    "name": "router",
+    "memberof": "src/routes/Wishlist.js",
+    "static": true,
+    "longname": "src/routes/Wishlist.js~router",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/routes/Wishlist.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 171,
+    "kind": "file",
+    "name": "src/server.js",
+    "content": "require(\"dotenv\").config();\r\nconst app = require(\"./app\");\r\n\r\nconst port = process.env.PORT;\r\napp.listen(port, () => {\r\n    console.log('Server is running on port 4000');\r\n});",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/server.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 172,
+    "kind": "variable",
+    "name": "app",
+    "memberof": "src/server.js",
+    "static": true,
+    "longname": "src/server.js~app",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 173,
+    "kind": "variable",
+    "name": "port",
+    "memberof": "src/server.js",
+    "static": true,
+    "longname": "src/server.js~port",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 174,
+    "kind": "file",
+    "name": "src/services/PaypalServices.js",
+    "content": "require(\"dotenv\").config();\r\n/**\r\n * @type {Object} paypal rest sdk\r\n */\r\nconst paypal = require(\"paypal-rest-sdk\");\r\n/**\r\n * @type {Object} node-fetch\r\n */\r\nconst fetch = require(\"node-fetch\");\r\n\r\n/**\r\n * \r\n * @param {Object[]} items array of items to be ordered\r\n * @param {Number} amount total amount to be paid\r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns checkout information from PayPal API.\r\n */\r\nasync function checkOut(items, amount, token) {\r\n  token = token.replace(/\\\"/g, \"\");\r\n  paypal.configure({\r\n    mode: \"sandbox\",\r\n    client_id: process.env.PAYPAL_CLIENT_ID,\r\n    client_secret: process.env.PAYPAL_SECRET,\r\n  });\r\n  var itemsPaypal = [];\r\n  for (var i = 0; i < items.length; i++) {\r\n    itemsPaypal.push({\r\n      name: items[i].productId,\r\n      sku: items[i].productId,\r\n      price: parseFloat(items[i].variant.price).toFixed(2),\r\n      currency: \"USD\",\r\n      quantity: items[i].quantity,\r\n    });\r\n  }\r\n\r\n  var create_payment_json = {\r\n    intent: \"sale\",\r\n    payer: {\r\n      payment_method: \"paypal\",\r\n    },\r\n    redirect_urls: {\r\n      return_url: process.env.API+`/checkoutExecute/${amount}/${encodeURIComponent(\r\n        JSON.stringify(items))}/${token}`,\r\n      cancel_url: process.env.API,\r\n    },\r\n    transactions: [\r\n      {\r\n        item_list: {\r\n          items: itemsPaypal,\r\n        },\r\n        amount: {\r\n          currency: \"USD\",\r\n          total: parseFloat(amount).toFixed(2),\r\n        },\r\n        description: \"This is the payment description.\",\r\n      },\r\n    ],\r\n  };\r\n\r\n  return new Promise(function (resolve, reject) {\r\n    paypal.payment.create(create_payment_json, function (error, payment) {\r\n      if (error) {\r\n        console.log(error.response);\r\n        reject(error);\r\n      } else {\r\n        for (var i = 0; i < payment.links.length; i++) {\r\n          if (payment.links[i].rel == \"approval_url\") {\r\n            resolve(payment.links[i].href);\r\n          }\r\n        }\r\n      }\r\n    });\r\n  });\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} paymentId \r\n * @param {String} PayerID \r\n * @param {Number} amount total amount to be paid\r\n * @param {Object[]} itemsArr array of items to be ordered\r\n * @param {String} token user token\r\n * @returns {Promise<Object>} returns order status from OSF API.\r\n */\r\nasync function checkOutExecute(paymentId, PayerID, amount, itemsArr, token) {\r\n  const items = JSON.parse(itemsArr);\r\n  var execute_payment_json = {\r\n    payer_id: PayerID,\r\n    transactions: [\r\n      {\r\n        amount: {\r\n          currency: \"USD\",\r\n          total: amount,\r\n        },\r\n      },\r\n    ],\r\n  };\r\n\r\n  const orderResult = await execute(paymentId, execute_payment_json);\r\n  \r\n  const response = await fetch(`${process.env.API}/orders/create`, {\r\n    method: \"POST\",\r\n    headers: {\r\n      \"Content-Type\": \"application/json\",\r\n      token: token,\r\n    },\r\n    body: JSON.stringify({\r\n      address: orderResult.payer.payer_info.shipping_address.line1+\" \"\r\n      +orderResult.payer.payer_info.shipping_address.city+\" \"\r\n      +orderResult.payer.payer_info.shipping_address.postal_code,\r\n      paymentId: orderResult.id,\r\n      items: items,\r\n    }),\r\n  });\r\n\r\n  const data = await response.json();\r\n  if(data.status == \"created\"){\r\n    return token;\r\n  }else return {\r\n    status: data.error,\r\n  }\r\n}\r\n\r\n/**\r\n * \r\n * @param {String} paymentId \r\n * @param {Object} execute_payment_json \r\n * @returns {Promise<Object>} returns order status from PayPal API.\r\n */\r\nasync function execute(paymentId, execute_payment_json) {\r\n  return new Promise(function (resolve, reject) {\r\n    paypal.payment.execute(\r\n      paymentId,\r\n      execute_payment_json,\r\n      function (error, payment) {\r\n        if (error) {\r\n          reject(error);\r\n        } else {\r\n          const data = JSON.stringify(payment);\r\n          resolve(JSON.parse(data));\r\n        }\r\n      }\r\n    );\r\n  });\r\n}\r\n\r\nmodule.exports = { checkOut, checkOutExecute };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/services/PaypalServices.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 175,
+    "kind": "variable",
+    "name": "paypal",
+    "memberof": "src/services/PaypalServices.js",
+    "static": true,
+    "longname": "src/services/PaypalServices.js~paypal",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/services/PaypalServices.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 5,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 176,
+    "kind": "variable",
+    "name": "fetch",
+    "memberof": "src/services/PaypalServices.js",
+    "static": true,
+    "longname": "src/services/PaypalServices.js~fetch",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/services/PaypalServices.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 9,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 177,
+    "kind": "function",
+    "name": "checkOut",
+    "memberof": "src/services/PaypalServices.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/services/PaypalServices.js~checkOut",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/services/PaypalServices.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 18,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns checkout information from PayPal API."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "items",
+        "description": "array of items to be ordered"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "amount",
+        "description": "total amount to be paid"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns checkout information from PayPal API."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 178,
+    "kind": "function",
+    "name": "checkOutExecute",
+    "memberof": "src/services/PaypalServices.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/services/PaypalServices.js~checkOutExecute",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/services/PaypalServices.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 85,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns order status from OSF API."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "paymentId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "PayerID",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "amount",
+        "description": "total amount to be paid"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "itemsArr",
+        "description": "array of items to be ordered"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "token",
+        "description": "user token"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns order status from OSF API."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 179,
+    "kind": "function",
+    "name": "execute",
+    "memberof": "src/services/PaypalServices.js",
+    "generator": false,
+    "async": true,
+    "static": true,
+    "longname": "src/services/PaypalServices.js~execute",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/services/PaypalServices.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 130,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{Promise<Object>} returns order status from PayPal API."
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "String"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "paymentId",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "execute_payment_json",
+        "description": ""
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Object>"
+      ],
+      "spread": false,
+      "description": "returns order status from PayPal API."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 180,
+    "kind": "file",
+    "name": "src/utils/sentry.js",
+    "content": "/**\r\n * @type {Object} Sentry\r\n */\r\nconst Sentry = require(\"@sentry/node\");\r\nrequire(\"dotenv\").config();\r\n\r\nSentry.init({\r\n  dsn: process.env.DSN,\r\n\r\n  // We recommend adjusting this value in production, or using tracesSampler\r\n  // for finer control\r\n  tracesSampleRate: 1.0,\r\n});\r\n\r\nmodule.exports = { Sentry };\r\n",
+    "static": true,
+    "longname": "C:/Users/cleit/Documents/OSF-Academy-back-end 1.0/OSF-Academy-Back-End/src/utils/sentry.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 181,
+    "kind": "variable",
+    "name": "Sentry",
+    "memberof": "src/utils/sentry.js",
+    "static": true,
+    "longname": "src/utils/sentry.js~Sentry",
+    "access": "public",
+    "export": false,
+    "importPath": "./src/utils/sentry.js",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "# OSF-Academy-Back-End",
+    "longname": "C:\\Users\\cleit\\Documents\\OSF-Academy-back-end 1.0\\OSF-Academy-Back-End\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n  \"dependencies\": {\r\n    \"@sentry/node\": \"^6.16.1\",\r\n    \"dotenv\": \"^10.0.0\",\r\n    \"ejs\": \"^3.1.6\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\",\r\n    \"express\": \"^4.17.2\",\r\n    \"node-fetch\": \"2\",\r\n    \"paypal-rest-sdk\": \"^1.8.1\"\r\n  },\r\n  \"scripts\": {\r\n    \"dev\": \"nodemon -e js,ejs,css ./src/server.js --ignore __tests__\",\r\n    \"start\": \"node ./src/server.js\",\r\n    \"test\": \"jest\",\r\n    \"doc\": \"yarn esdoc\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"jest\": \"^27.4.7\",\r\n    \"nodemon\": \"^2.0.15\",\r\n    \"supertest\": \"^6.2.1\"\r\n  }\r\n}\r\n",
+    "longname": "C:\\Users\\cleit\\Documents\\OSF-Academy-back-end 1.0\\OSF-Academy-Back-End\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

@@ -1,6 +1,14 @@
+/**
+ * @type {Object} express
+ */
 const express = require("express");
-
+/**
+ * @type {Object} orderController
+ */
 const orderController = require("../controllers/OrderController");
+/**
+ * @type {Object} router
+ */
 const router = express.Router();
 
 //​Get Orders​

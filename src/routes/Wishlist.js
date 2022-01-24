@@ -1,6 +1,14 @@
+/**
+ * @type {Object} express
+ */
 const express = require("express");
-
+/**
+ * @type {Object} wishlistController
+ */
 const wishlistController = require("../controllers/WishlistController");
+/**
+ * @type {Object} router
+ */
 const router = express.Router();
 
 //​Get Wishlist

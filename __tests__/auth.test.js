@@ -7,7 +7,6 @@ describe("Sign In", () => {
         const response = await request(app)
         .post("/auth/signin")
         .send({
-            secretKey: process.env.API_KEY,
             email: "example-test-03433@gmail.com",
             password: "123"
         });
@@ -19,7 +18,6 @@ describe("Sign In", () => {
         const response = await request(app)
         .post("/auth/signin")
         .send({
-            secretKey: process.env.API_KEY,
             email: "example-test-03433@gmail.com",
             password: "1234"
         });
@@ -33,7 +31,6 @@ describe("Sign Up", () => {
         const response = await request(app)
         .post("/auth/signup")
         .send({
-            secretKey: process.env.API_KEY,
             name: "Example Test",
 	        email: "example-test-03433@gmail.com",
 	        password: "321"
