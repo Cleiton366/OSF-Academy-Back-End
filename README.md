@@ -1,6 +1,6 @@
 <div align="center">
   <h1>OSF-Academy-Back-End</h1>
-  <p>This is the final project of OSF Academy - January session.</p>
+  <p>This is the final project for the OSF Academy - January session.</p>
   <img src="https://img.shields.io/static/v1?label=Tests&message=85%&color=8257E5&labelColor=000000" alt="Test 85.01%" />
   <img src="https://img.shields.io/static/v1?label=Documentation&message=87%&color=F4FF4D&labelColor=000000" alt="Documentation 87%" />
 </div>
