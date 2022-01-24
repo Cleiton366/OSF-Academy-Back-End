@@ -1,5 +1,9 @@
-# OSF-Academy-Back-End
-This repository is for the project of OSF Academy - January session. 
+<div align="center">
+  <h1>OSF-Academy-Back-End</h1>
+  <p>This repository is for the project of OSF Academy - January session.</p>
+  <img src="https://img.shields.io/static/v1?label=Tests&message=85%&color=8257E5&labelColor=000000" alt="Test 85.01%" />
+  <img src="https://img.shields.io/static/v1?label=Documentation&message=87%&color=F4FF4D&labelColor=000000" alt="Documentation 87%" />
+</div>
 
 <h2>Functionalities Implemented</h2>
 <h3>Technical Requirements</h3>
@@ -77,10 +81,18 @@ CSS
 
 <h2>Scripts available</h2>
 
-"yarn dev" - for production enviroment
+`yarn dev` - for production enviroment
 
-"yarn start" - start the back-end
+`yarn start` - start the back-end
 
-"yarn test" - run all tests suites with Jest
+`yarn test` - run all tests suites with Jest
 
-"yarn doc" - will update documentation
+`yarn doc` - will update documentation
+
+<h2>Requirements</h2>
+
+OSF api-key
+
+PayPal Rest SDK api-key
+
+Sentry DNS
