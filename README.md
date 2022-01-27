@@ -96,3 +96,5 @@ OSF api-key
 PayPal Rest SDK api-key
 
 Sentry DNS
+
+Paypal account to checkout orders
