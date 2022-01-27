@@ -54,6 +54,8 @@
 
 <a href="https://ejs.co/">EJS</a>
 
+<a href="https://getbootstrap.com/">Bootstrap</a>
+
 CSS
 
 <a href="https://classic.yarnpkg.com/en/">yarn</a>
