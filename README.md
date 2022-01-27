@@ -44,7 +44,7 @@
 
 ✅Code Documentation
 
-✅Continuous Integration (​Buddy Works)
+✅Continuous Integration(​Buddy Works)
 
 <h2>Technologies used</h2>
 
