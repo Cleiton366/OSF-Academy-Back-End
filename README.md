@@ -56,6 +56,8 @@
 
 <a href="https://getbootstrap.com/">Bootstrap</a>
 
+<a href="https://jquery.com/">Jquery</a>
+
 CSS
 
 <a href="https://classic.yarnpkg.com/en/">yarn</a>
