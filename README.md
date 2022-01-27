@@ -26,7 +26,7 @@
 
 <h3>Extra Features</h3>
 
-✅Authentication (SignUp/Login/Logout)
+✅Authentication(SignUp/Login/Logout)
 
 ✅Products Variations
 
