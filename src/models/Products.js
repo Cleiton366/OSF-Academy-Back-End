@@ -2,6 +2,7 @@
  * @package node-fetch
  */
  const fetch = require("node-fetch");
+
  /**
   * @package Sentry
   */

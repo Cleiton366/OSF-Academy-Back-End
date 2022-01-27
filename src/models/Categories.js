@@ -49,7 +49,7 @@ async function getAllCategories() {
         const data = await response.json();
         return data;
     }catch(err) {
-        console.log(err);
+        Sentry.captureException(err);;
     }
 }
 

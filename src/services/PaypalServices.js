@@ -60,7 +60,6 @@ async function checkOut(items, amount, token) {
   return new Promise(function (resolve, reject) {
     paypal.payment.create(create_payment_json, function (error, payment) {
       if (error) {
-        console.log(error.response);
         reject(error);
       } else {
         for (var i = 0; i < payment.links.length; i++) {

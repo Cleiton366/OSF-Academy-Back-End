@@ -1,6 +1,7 @@
 /**
  * @package node-fetch
  */
+
 const fetch = require("node-fetch");
 /**
  * @package Sentry
@@ -28,7 +29,7 @@ async function getWishlist(token) {
     const data = await response.json();
     return data;
   } catch (err) {
-    console.log(err);
+    Sentry.captureException(err);;
   }
 }
 

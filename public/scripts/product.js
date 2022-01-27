@@ -38,12 +38,6 @@ $(document).ready(async function () {
   }
 });
 
-$("#wishlistBtn").click(function () {
-  if (sessionStorage.getItem("token")) {
-    console.log("logado");
-  } else window.location.href = "/signin";
-});
-
 $(".fa-minus").click(function () {
   var qtd = $(".quantity").html();
   if (qtd > 1) {
